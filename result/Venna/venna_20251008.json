@@ -1,0 +1,391 @@
+{
+  "artist": {
+    "id": "7qKJMpPZfyGHHwPgsjgFCP",
+    "name": "Venna",
+    "url": "https://open.spotify.com/artist/7qKJMpPZfyGHHwPgsjgFCP",
+    "followers": 78294,
+    "popularity": 58,
+    "genres": [
+      "jazz rap",
+      "uk r&b"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebbd00c0c7f3ee2c8553b70b95",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174bd00c0c7f3ee2c8553b70b95",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178bd00c0c7f3ee2c8553b70b95",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "monthly_listeners": null
+  },
+  "top_tracks": [
+    {
+      "name": "Myself (feat. Jorja Smith)",
+      "popularity": 62,
+      "duration_ms": 178586,
+      "duration_min": 2.98,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/7ymllAe6kR6TSmiDXmnOWx",
+      "album": {
+        "name": "MALIK",
+        "release_date": "2025-09-05",
+        "total_tracks": 17
+      },
+      "artists": [
+        "Venna",
+        "Jorja Smith"
+      ]
+    },
+    {
+      "name": "Sicily' Box",
+      "popularity": 57,
+      "duration_ms": 245853,
+      "duration_min": 4.1,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/7EdQ9Z80HAKiISr1MZABpZ",
+      "album": {
+        "name": "Sicily' Box",
+        "release_date": "2022-10-28",
+        "total_tracks": 1
+      },
+      "artists": [
+        "Venna",
+        "Yussef Dayes",
+        "Marco Bernardis",
+        "Rocco Palladino"
+      ]
+    },
+    {
+      "name": "Alpha House",
+      "popularity": 56,
+      "duration_ms": 181700,
+      "duration_min": 3.03,
+      "explicit": true,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6udE9waINs3SYdNoGTotm9",
+      "album": {
+        "name": "ALPHA PLACE",
+        "release_date": "2022-05-06",
+        "total_tracks": 13
+      },
+      "artists": [
+        "Knucks",
+        "Venna"
+      ]
+    },
+    {
+      "name": "Twisting (feat. Leon Thomas)",
+      "popularity": 50,
+      "duration_ms": 225613,
+      "duration_min": 3.76,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/0VELY6OksBpoDWTeYvENx0",
+      "album": {
+        "name": "MALIK",
+        "release_date": "2025-09-05",
+        "total_tracks": 17
+      },
+      "artists": [
+        "Venna",
+        "Leon Thomas"
+      ]
+    },
+    {
+      "name": "My Way",
+      "popularity": 50,
+      "duration_ms": 213394,
+      "duration_min": 3.56,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/4I8fZSVDGv3wzLafeYlncj",
+      "album": {
+        "name": "MALIK",
+        "release_date": "2025-09-05",
+        "total_tracks": 17
+      },
+      "artists": [
+        "Venna"
+      ]
+    },
+    {
+      "name": "Sun, Moon & Herbs",
+      "popularity": 54,
+      "duration_ms": 252053,
+      "duration_min": 4.2,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6pHo3k15lbYuljy5GyZsV2",
+      "album": {
+        "name": "VENOLOGY",
+        "release_date": "2021-09-03",
+        "total_tracks": 6
+      },
+      "artists": [
+        "Venna",
+        "JVCK JAMES"
+      ]
+    },
+    {
+      "name": "Mr Popular (feat. Smino)",
+      "popularity": 52,
+      "duration_ms": 178493,
+      "duration_min": 2.97,
+      "explicit": true,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/215MkXd23lFtFD1lUeRuGF",
+      "album": {
+        "name": "MALIK",
+        "release_date": "2025-09-05",
+        "total_tracks": 17
+      },
+      "artists": [
+        "Venna",
+        "Smino"
+      ]
+    },
+    {
+      "name": "Casa Lopez",
+      "popularity": 52,
+      "duration_ms": 243560,
+      "duration_min": 4.06,
+      "explicit": true,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/15vePScuEPjJeOWsnNqGgo",
+      "album": {
+        "name": "Casa Lopez",
+        "release_date": "2023-01-13",
+        "total_tracks": 1
+      },
+      "artists": [
+        "Venna",
+        "Masego",
+        "Mick Jenkins"
+      ]
+    },
+    {
+      "name": "June's Cry",
+      "popularity": 51,
+      "duration_ms": 236933,
+      "duration_min": 3.95,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/72NynuHPtVPMyeJq1y4eBT",
+      "album": {
+        "name": "VENOLOGY",
+        "release_date": "2021-09-03",
+        "total_tracks": 6
+      },
+      "artists": [
+        "Venna",
+        "JVCK JAMES",
+        "JADA",
+        "EMIL",
+        "Marco Bernardis"
+      ]
+    },
+    {
+      "name": "Eternal Reflections (feat. Yussef Dayes)",
+      "popularity": 50,
+      "duration_ms": 293040,
+      "duration_min": 4.88,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/1kgPaBdX9AgJzBMDtxjSHm",
+      "album": {
+        "name": "MALIK",
+        "release_date": "2025-09-05",
+        "total_tracks": 17
+      },
+      "artists": [
+        "Venna",
+        "Yussef Dayes"
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "id": "0X8L8zMHTYQr5wX9zeHPqf",
+      "name": "MALIK",
+      "release_date": "2025-09-05",
+      "total_tracks": 17,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/0X8L8zMHTYQr5wX9zeHPqf"
+    },
+    {
+      "id": "5pm8vUKk3iMoeWMYVEIaRY",
+      "name": "Veranda (feat. CARI)",
+      "release_date": "2025-09-04",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5pm8vUKk3iMoeWMYVEIaRY"
+    },
+    {
+      "id": "4nO2YRNaNBas9gLW54LVyR",
+      "name": "Mr Popular (feat. Smino)",
+      "release_date": "2025-09-04",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4nO2YRNaNBas9gLW54LVyR"
+    },
+    {
+      "id": "3kAAfDRkBTvoZFXmSHg0l0",
+      "name": "Eternal Reflections (feat. Yussef Dayes)",
+      "release_date": "2025-09-04",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3kAAfDRkBTvoZFXmSHg0l0"
+    },
+    {
+      "id": "1xitk8JdGXMqinTYk5HdpL",
+      "name": "Myself (feat. Jorja Smith)",
+      "release_date": "2025-09-03",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/1xitk8JdGXMqinTYk5HdpL"
+    },
+    {
+      "id": "4IXE89h8jk4cKXBzpXAIvE",
+      "name": "Twisting (feat. Leon Thomas)",
+      "release_date": "2025-07-23",
+      "total_tracks": 4,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4IXE89h8jk4cKXBzpXAIvE"
+    },
+    {
+      "id": "11BEsLzTeQyffuSXa3W6Fe",
+      "name": "Day x2 (feat. MIKE & Marco Bernardis)",
+      "release_date": "2025-07-01",
+      "total_tracks": 3,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/11BEsLzTeQyffuSXa3W6Fe"
+    },
+    {
+      "id": "343xfgVbzAaxazwRutXbqe",
+      "name": "My Way - A COLORS SHOW",
+      "release_date": "2025-06-12",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/343xfgVbzAaxazwRutXbqe"
+    },
+    {
+      "id": "3VBondIyQLQMKAOCEPKoRO",
+      "name": "My Way",
+      "release_date": "2025-05-07",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3VBondIyQLQMKAOCEPKoRO"
+    },
+    {
+      "id": "41NWZwV3VvcM5luISJZipe",
+      "name": "Prophet",
+      "release_date": "2025-03-26",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/41NWZwV3VvcM5luISJZipe"
+    },
+    {
+      "id": "0BnsthsVZEANYerIJxfGnF",
+      "name": "HIZUKI // PERFECT DIVIDE",
+      "release_date": "2023-12-08",
+      "total_tracks": 2,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0BnsthsVZEANYerIJxfGnF"
+    },
+    {
+      "id": "5Fw9BsShZLeiuREYfVBX9s",
+      "name": "Black Classical Music (feat. Venna & Charlie Stacey)",
+      "release_date": "2023-04-27",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5Fw9BsShZLeiuREYfVBX9s"
+    },
+    {
+      "id": "5WP3TQg4wJ4iUN80HbuJk7",
+      "name": "EQUINOX",
+      "release_date": "2023-04-14",
+      "total_tracks": 6,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5WP3TQg4wJ4iUN80HbuJk7"
+    },
+    {
+      "id": "6O8KaGtYawqKjgj5JeBKg3",
+      "name": "Misty",
+      "release_date": "2023-04-13",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/6O8KaGtYawqKjgj5JeBKg3"
+    },
+    {
+      "id": "0RICZt0FIkBcLYZ9Z9Mqhx",
+      "name": "Tam Tam",
+      "release_date": "2023-03-08",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0RICZt0FIkBcLYZ9Z9Mqhx"
+    },
+    {
+      "id": "4uvJQ9YlVz1vrmMjYO3FX9",
+      "name": "Casa Lopez",
+      "release_date": "2023-01-13",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4uvJQ9YlVz1vrmMjYO3FX9"
+    },
+    {
+      "id": "2uuyNTiLLeSomuFh1agl6v",
+      "name": "Sicily' Box",
+      "release_date": "2022-10-28",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/2uuyNTiLLeSomuFh1agl6v"
+    },
+    {
+      "id": "6DEa2LNhNCldLC4bl9bE9I",
+      "name": "Where Are We Going?",
+      "release_date": "2022-07-22",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/6DEa2LNhNCldLC4bl9bE9I"
+    },
+    {
+      "id": "1s8xKntAE2o35KgQnkSKje",
+      "name": "VENOLOGY",
+      "release_date": "2021-09-03",
+      "total_tracks": 6,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/1s8xKntAE2o35KgQnkSKje"
+    },
+    {
+      "id": "6GJdh5Yo1LRYAahkLavVWu",
+      "name": "Avenue B",
+      "release_date": "2021-08-06",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/6GJdh5Yo1LRYAahkLavVWu"
+    },
+    {
+      "id": "7aXmIOc3CuYe0AtqO3fjca",
+      "name": "Standard",
+      "release_date": "2021-06-30",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7aXmIOc3CuYe0AtqO3fjca"
+    }
+  ],
+  "related_artists": [],
+  "search_query": "Venna",
+  "country_market": "US"
+}

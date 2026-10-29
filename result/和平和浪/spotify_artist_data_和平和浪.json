@@ -1,0 +1,306 @@
+{
+  "artist": {
+    "id": "0POEKLEUnCtvvDxdDzMPTv",
+    "name": "和平和浪",
+    "url": "https://open.spotify.com/artist/0POEKLEUnCtvvDxdDzMPTv",
+    "followers": 1457,
+    "popularity": 7,
+    "genres": [
+      "chinese indie",
+      "chinese rock",
+      "taiwanese indie"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b2732d7bb92b6b9ea57d9c6bf050",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e022d7bb92b6b9ea57d9c6bf050",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048512d7bb92b6b9ea57d9c6bf050",
+        "height": 64,
+        "width": 64
+      }
+    ]
+  },
+  "top_tracks": [
+    {
+      "name": "一輩子的孤單 - 滾石40 滾石撞樂隊 40團拚經典 (原唱:劉若英)",
+      "popularity": 20,
+      "duration_ms": 222208,
+      "duration_min": 3.7,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/5JnIBmclrhGVxE0fL9iFnJ",
+      "album": {
+        "name": "滾石40 滾石撞樂隊 40團拚經典 - 一輩子的孤單",
+        "release_date": "2022-01-21",
+        "total_tracks": 1
+      },
+      "artists": [
+        "和平和浪"
+      ]
+    },
+    {
+      "name": "丽园便利店",
+      "popularity": 6,
+      "duration_ms": 265311,
+      "duration_min": 4.42,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/5EgdAJLJ4fKHabUBpFkGVG",
+      "album": {
+        "name": "好腰Aside",
+        "release_date": "2017-10-16",
+        "total_tracks": 5
+      },
+      "artists": [
+        "和平和浪"
+      ]
+    },
+    {
+      "name": "七八月",
+      "popularity": 4,
+      "duration_ms": 230000,
+      "duration_min": 3.83,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/4Q2A6RaPiOd8eHHaEXMou4",
+      "album": {
+        "name": "都市灵魂庇护所 Vol.02 · 情绪环岛",
+        "release_date": "2024-07-17",
+        "total_tracks": 7
+      },
+      "artists": [
+        "和平和浪",
+        "Dizkar",
+        "CigarHan"
+      ]
+    },
+    {
+      "name": "Summer",
+      "popularity": 4,
+      "duration_ms": 195395,
+      "duration_min": 3.26,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6BFhZaTt3rgnjM1W4LulRc",
+      "album": {
+        "name": "好腰Bside",
+        "release_date": "2017-12-13",
+        "total_tracks": 5
+      },
+      "artists": [
+        "和平和浪"
+      ]
+    },
+    {
+      "name": "瑞奇李小龙",
+      "popularity": 2,
+      "duration_ms": 237981,
+      "duration_min": 3.97,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/04FxRQYy0HgW7oc0N1he9w",
+      "album": {
+        "name": "瑞奇李小龙",
+        "release_date": "2017-07-25",
+        "total_tracks": 1
+      },
+      "artists": [
+        "和平和浪"
+      ]
+    },
+    {
+      "name": "summer",
+      "popularity": 1,
+      "duration_ms": 189108,
+      "duration_min": 3.15,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/7wmRG2u9RrXlqq2KkkREON",
+      "album": {
+        "name": "安福大厅",
+        "release_date": "2019-09-19",
+        "total_tracks": 10
+      },
+      "artists": [
+        "和平和浪"
+      ]
+    },
+    {
+      "name": "The first",
+      "popularity": 1,
+      "duration_ms": 150968,
+      "duration_min": 2.52,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/55US0OZZdGC05GMNvnBwGy",
+      "album": {
+        "name": "安福大厅",
+        "release_date": "2019-09-19",
+        "total_tracks": 10
+      },
+      "artists": [
+        "和平和浪"
+      ]
+    },
+    {
+      "name": "48hrs",
+      "popularity": 1,
+      "duration_ms": 267779,
+      "duration_min": 4.46,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/1RxcfkQkxPniuBUYIzxc9V",
+      "album": {
+        "name": "安福大厅",
+        "release_date": "2019-09-19",
+        "total_tracks": 10
+      },
+      "artists": [
+        "和平和浪"
+      ]
+    },
+    {
+      "name": "丽园便利店",
+      "popularity": 1,
+      "duration_ms": 238666,
+      "duration_min": 3.98,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/2Tr6hISvS9MaqOBWKmKZr4",
+      "album": {
+        "name": "丽园便利店",
+        "release_date": "2019-09-09",
+        "total_tracks": 1
+      },
+      "artists": [
+        "和平和浪"
+      ]
+    },
+    {
+      "name": "丽园便利店",
+      "popularity": 0,
+      "duration_ms": 235738,
+      "duration_min": 3.93,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/74wS0KQl6LYaknJZOii71H",
+      "album": {
+        "name": "安福大厅",
+        "release_date": "2019-09-19",
+        "total_tracks": 10
+      },
+      "artists": [
+        "和平和浪"
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "id": "5L83RHMQhQAYSh0C9Le0Qn",
+      "name": "安福大厅",
+      "release_date": "2019-09-19",
+      "total_tracks": 10,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/5L83RHMQhQAYSh0C9Le0Qn"
+    },
+    {
+      "id": "4a1S7PdPVXWQMu82OKrbE4",
+      "name": "无眠夜",
+      "release_date": "2023-08-02",
+      "total_tracks": 6,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4a1S7PdPVXWQMu82OKrbE4"
+    },
+    {
+      "id": "1z54mX41If4KuifYAp0QhX",
+      "name": "滾石40 滾石撞樂隊 40團拚經典 - 一輩子的孤單",
+      "release_date": "2022-01-21",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/1z54mX41If4KuifYAp0QhX"
+    },
+    {
+      "id": "4z6k1OMQ7Prb0NsuTlkQCN",
+      "name": "丽园便利店",
+      "release_date": "2019-09-09",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4z6k1OMQ7Prb0NsuTlkQCN"
+    },
+    {
+      "id": "1NhdupgNGh25XBAIsIZJm9",
+      "name": "48hrs",
+      "release_date": "2019-08-24",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/1NhdupgNGh25XBAIsIZJm9"
+    },
+    {
+      "id": "7yJrTNzUwpGWjFEbtLiWLm",
+      "name": "Summer",
+      "release_date": "2019-07-05",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7yJrTNzUwpGWjFEbtLiWLm"
+    },
+    {
+      "id": "0qo32PHcmx0Fag5m8k0YUL",
+      "name": "土豆",
+      "release_date": "2018-04-24",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0qo32PHcmx0Fag5m8k0YUL"
+    },
+    {
+      "id": "0vvTPJjTQC9McSXC3ER7w5",
+      "name": "好腰Bside",
+      "release_date": "2017-12-13",
+      "total_tracks": 5,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0vvTPJjTQC9McSXC3ER7w5"
+    },
+    {
+      "id": "1dgWdQaMjNZ8u1QVev81zz",
+      "name": "好腰Aside",
+      "release_date": "2017-10-16",
+      "total_tracks": 5,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/1dgWdQaMjNZ8u1QVev81zz"
+    },
+    {
+      "id": "3JeYmvlf4JRwMaujF3yNvP",
+      "name": "9 More Minutes Sleep",
+      "release_date": "2017-09-22",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3JeYmvlf4JRwMaujF3yNvP"
+    },
+    {
+      "id": "2mZhSjlCnfVzd9SKW2onBo",
+      "name": "瑞奇李小龙",
+      "release_date": "2017-07-25",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/2mZhSjlCnfVzd9SKW2onBo"
+    },
+    {
+      "id": "6DbCFfFWIa8TiSzywJsjIR",
+      "name": "公园",
+      "release_date": "2016-12-29",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/6DbCFfFWIa8TiSzywJsjIR"
+    }
+  ],
+  "related_artists": [],
+  "search_query": "和平和浪",
+  "country_market": "US"
+}

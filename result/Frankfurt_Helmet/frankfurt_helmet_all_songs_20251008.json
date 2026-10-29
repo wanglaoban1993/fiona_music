@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Raw Saw Law",
+    "popularity": 1,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6GGW22KEO3THfABLqIr4bE",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "Iteritas",
+    "popularity": 1,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6alqVpMWKuS4aHWNFvkLrp",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "Grain",
+    "popularity": 0,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1xRGPbAG0yYXC711A9HbiD",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "Patch",
+    "popularity": 0,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7DfuQySy1i8DVnBmuuQkWn",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "Satellites",
+    "popularity": 0,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6kbP22S6XhFRLnf8tynkBk",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "0o0o",
+    "popularity": 0,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1oBHnwx4UxIct4OX0vZIU5",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "Pieces",
+    "popularity": 0,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6UluhwwvvmMBohbMvZIajp",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "Fantasy",
+    "popularity": 0,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/4KPIfbZ1IbiTevLHvPqmPA",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "Individuals",
+    "popularity": 0,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6pzuRiC7MMVwdrNl1fhZz1",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "Raw Saw Law - Byetone Remix",
+    "popularity": 2,
+    "album": "INDIVIDUALS 星丛",
+    "release_date": "2022-09-03",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/4ewCgAyHf82UVcjRFnZsW1",
+    "artists": [
+      "Frankfurt Helmet",
+      "Byetone"
+    ]
+  },
+  {
+    "name": "The Next Piece",
+    "popularity": 3,
+    "album": "The Next Piece",
+    "release_date": "2024-02-25",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1BRV2fYoQbndVRvzv9Plxl",
+    "artists": [
+      "Frankfurt Helmet"
+    ]
+  },
+  {
+    "name": "Patch - AtomTM Remix",
+    "popularity": 0,
+    "album": "Patch (AtomTM Remix)",
+    "release_date": "2022-10-29",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1bEWaXpq6QItpecuvxkTkR",
+    "artists": [
+      "Frankfurt Helmet",
+      "AtomTM"
+    ]
+  }
+]

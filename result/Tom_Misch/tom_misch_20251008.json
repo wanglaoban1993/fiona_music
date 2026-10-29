@@ -1,0 +1,536 @@
+{
+  "artist": {
+    "id": "1uiEZYehlNivdK3iQyAbye",
+    "name": "Tom Misch",
+    "url": "https://open.spotify.com/artist/1uiEZYehlNivdK3iQyAbye",
+    "followers": 1352011,
+    "popularity": 64,
+    "genres": [
+      "indie soul"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebb52fc43462304eb6ae5bba5f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174b52fc43462304eb6ae5bba5f",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178b52fc43462304eb6ae5bba5f",
+        "height": 160,
+        "width": 160
+      }
+    ],
+    "monthly_listeners": null
+  },
+  "top_tracks": [
+    {
+      "name": "It Runs Through Me (feat. De La Soul)",
+      "popularity": 68,
+      "duration_ms": 261881,
+      "duration_min": 4.36,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/0vMctOnb4YNIvbqgkbWNDy",
+      "album": {
+        "name": "Geography",
+        "release_date": "2018-04-06",
+        "total_tracks": 13
+      },
+      "artists": [
+        "Tom Misch",
+        "De La Soul"
+      ]
+    },
+    {
+      "name": "Red Moon",
+      "popularity": 62,
+      "duration_ms": 212483,
+      "duration_min": 3.54,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/44tb4TdFVliafU17EQg28J",
+      "album": {
+        "name": "Red Moon",
+        "release_date": "2025-05-14",
+        "total_tracks": 2
+      },
+      "artists": [
+        "Tom Misch"
+      ]
+    },
+    {
+      "name": "Tidal Wave",
+      "popularity": 61,
+      "duration_ms": 249427,
+      "duration_min": 4.16,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/4Goj7amQLl2PiPYaiB0VlV",
+      "album": {
+        "name": "What Kinda Music",
+        "release_date": "2020-04-24",
+        "total_tracks": 12
+      },
+      "artists": [
+        "Tom Misch",
+        "Yussef Dayes"
+      ]
+    },
+    {
+      "name": "Losing My Way",
+      "popularity": 61,
+      "duration_ms": 259200,
+      "duration_min": 4.32,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/3zidJjXGWgKqgQnfb6hKak",
+      "album": {
+        "name": "Losing My Way",
+        "release_date": "2019-10-10",
+        "total_tracks": 2
+      },
+      "artists": [
+        "FKJ",
+        "Tom Misch"
+      ]
+    },
+    {
+      "name": "Disco Yes",
+      "popularity": 60,
+      "duration_ms": 280878,
+      "duration_min": 4.68,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/2fvdQ1Uq04qE4RLN5zKBXS",
+      "album": {
+        "name": "Geography",
+        "release_date": "2018-04-06",
+        "total_tracks": 13
+      },
+      "artists": [
+        "Tom Misch",
+        "Poppy Ajudha"
+      ]
+    },
+    {
+      "name": "Movie",
+      "popularity": 59,
+      "duration_ms": 357357,
+      "duration_min": 5.96,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/0kKrJbP4oATz98qQp2iXeC",
+      "album": {
+        "name": "Geography",
+        "release_date": "2018-04-06",
+        "total_tracks": 13
+      },
+      "artists": [
+        "Tom Misch"
+      ]
+    },
+    {
+      "name": "Nightrider",
+      "popularity": 58,
+      "duration_ms": 300990,
+      "duration_min": 5.02,
+      "explicit": true,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/5TgZ7lOUugOdabBcD9a6ud",
+      "album": {
+        "name": "What Kinda Music",
+        "release_date": "2020-04-24",
+        "total_tracks": 12
+      },
+      "artists": [
+        "Tom Misch",
+        "Yussef Dayes",
+        "Freddie Gibbs"
+      ]
+    },
+    {
+      "name": "Beautiful Escape",
+      "popularity": 58,
+      "duration_ms": 276785,
+      "duration_min": 4.61,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6m0lkuDCha77hh7tB5J7IO",
+      "album": {
+        "name": "Beat Tape 2",
+        "release_date": "2015-08-28",
+        "total_tracks": 12
+      },
+      "artists": [
+        "Tom Misch",
+        "Zak Abel"
+      ]
+    },
+    {
+      "name": "Money (with Tom Misch)",
+      "popularity": 57,
+      "duration_ms": 291568,
+      "duration_min": 4.86,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/2LUTN2pDXUplYlc7WjE1Mm",
+      "album": {
+        "name": "Money",
+        "release_date": "2019-06-18",
+        "total_tracks": 1
+      },
+      "artists": [
+        "Michael Kiwanuka",
+        "Tom Misch"
+      ]
+    },
+    {
+      "name": "Lost in Paris",
+      "popularity": 55,
+      "duration_ms": 194023,
+      "duration_min": 3.23,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6LxuNFEU3oIZ5ybBdWbZNT",
+      "album": {
+        "name": "Geography",
+        "release_date": "2018-04-06",
+        "total_tracks": 13
+      },
+      "artists": [
+        "Tom Misch",
+        "GoldLink"
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "id": "6GRPGE56GlGQh5R4WsHm0B",
+      "name": "Quarantine Sessions",
+      "release_date": "2021-09-03",
+      "total_tracks": 8,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/6GRPGE56GlGQh5R4WsHm0B"
+    },
+    {
+      "id": "6iOCv7oGL5sGi2aVnRz2BI",
+      "name": "What Kinda Music",
+      "release_date": "2020-04-24",
+      "total_tracks": 12,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/6iOCv7oGL5sGi2aVnRz2BI"
+    },
+    {
+      "id": "0hDnsNkxpMDZrpBlGjldtW",
+      "name": "Geography",
+      "release_date": "2018-04-06",
+      "total_tracks": 13,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/0hDnsNkxpMDZrpBlGjldtW"
+    },
+    {
+      "id": "1rccj3MT8J26ZXlOVQLEuN",
+      "name": "Beat Tape 2",
+      "release_date": "2015-08-28",
+      "total_tracks": 12,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/1rccj3MT8J26ZXlOVQLEuN"
+    },
+    {
+      "id": "40Mqbtsj8nLldcDFHCyJ82",
+      "name": "Beat Tape 1",
+      "release_date": "2014-03-14",
+      "total_tracks": 19,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/40Mqbtsj8nLldcDFHCyJ82"
+    },
+    {
+      "id": "1ThA4wB67vZ6r540BIRbAa",
+      "name": "Red Moon",
+      "release_date": "2025-05-14",
+      "total_tracks": 2,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/1ThA4wB67vZ6r540BIRbAa"
+    },
+    {
+      "id": "7kAoW0zL7wkpCrkMk1lFP5",
+      "name": "Old Man",
+      "release_date": "2025-03-21",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7kAoW0zL7wkpCrkMk1lFP5"
+    },
+    {
+      "id": "7KpjUEdi4nOl1MUhTHDzYF",
+      "name": "Six Songs",
+      "release_date": "2024-12-20",
+      "total_tracks": 6,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7KpjUEdi4nOl1MUhTHDzYF"
+    },
+    {
+      "id": "4eoxzgxqIHsMd44siCY4lg",
+      "name": "Free (feat. Tom Misch)",
+      "release_date": "2023-09-13",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4eoxzgxqIHsMd44siCY4lg"
+    },
+    {
+      "id": "60EqifwSuc3sGlo0ysgg3u",
+      "name": "Rust (feat. Tom Misch)",
+      "release_date": "2023-05-31",
+      "total_tracks": 2,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/60EqifwSuc3sGlo0ysgg3u"
+    },
+    {
+      "id": "5ciBtE0wpwlIew7zvUKmd2",
+      "name": "What Kinda Music (Bonus Tracks)",
+      "release_date": "2020-10-02",
+      "total_tracks": 4,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5ciBtE0wpwlIew7zvUKmd2"
+    },
+    {
+      "id": "2xNZKNIlHUY9NKXrHzr19g",
+      "name": "What Kinda Music (Jordan Rakei Remix)",
+      "release_date": "2020-05-29",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/2xNZKNIlHUY9NKXrHzr19g"
+    },
+    {
+      "id": "4u5C68CzGi223ErII6MD3l",
+      "name": "Nightrider",
+      "release_date": "2020-04-16",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4u5C68CzGi223ErII6MD3l"
+    },
+    {
+      "id": "3lsbLyfaGRdwKX3EROHyoV",
+      "name": "Kyiv",
+      "release_date": "2020-03-25",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3lsbLyfaGRdwKX3EROHyoV"
+    },
+    {
+      "id": "3nOTv7wBRQ4bxeeIw47a6l",
+      "name": "Lift Off",
+      "release_date": "2020-03-11",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3nOTv7wBRQ4bxeeIw47a6l"
+    },
+    {
+      "id": "7rnlxqdiSjjvceJLVMMmmv",
+      "name": "What Kinda Music",
+      "release_date": "2020-02-12",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7rnlxqdiSjjvceJLVMMmmv"
+    },
+    {
+      "id": "1nJJZh7fy1gS36zRDRbu4k",
+      "name": "My Fancy Free Future Love (Tom Misch Remix)",
+      "release_date": "2020-01-10",
+      "total_tracks": 2,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/1nJJZh7fy1gS36zRDRbu4k"
+    },
+    {
+      "id": "4GlFFZE1tyiqLK81KVJ70T",
+      "name": "Losing My Way",
+      "release_date": "2019-10-10",
+      "total_tracks": 2,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4GlFFZE1tyiqLK81KVJ70T"
+    },
+    {
+      "id": "5qmEF78Uq9CjwIgvKQe7WG",
+      "name": "Money",
+      "release_date": "2019-06-18",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5qmEF78Uq9CjwIgvKQe7WG"
+    },
+    {
+      "id": "7L6JqRlm0ezM54i4sL6Khx",
+      "name": "Lost in Paris",
+      "release_date": "2018-04-03",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7L6JqRlm0ezM54i4sL6Khx"
+    },
+    {
+      "id": "1oOzkvSMjw8UQaGxmOGVbU",
+      "name": "It Runs Through Me (feat. De La Soul)",
+      "release_date": "2018-03-01",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/1oOzkvSMjw8UQaGxmOGVbU"
+    },
+    {
+      "id": "7LKFt4R86tVairf7gkUSys",
+      "name": "Water Baby",
+      "release_date": "2018-01-22",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7LKFt4R86tVairf7gkUSys"
+    },
+    {
+      "id": "49nlkCty4hdD1YYtlByW6i",
+      "name": "Movie",
+      "release_date": "2017-11-02",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/49nlkCty4hdD1YYtlByW6i"
+    },
+    {
+      "id": "2l1NoKB45XJQwJwC0gV2SI",
+      "name": "South of the River (Detroit Swindle Remix)",
+      "release_date": "2017-08-11",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/2l1NoKB45XJQwJwC0gV2SI"
+    },
+    {
+      "id": "5skuDvNBFqXOcF1diqTZaJ",
+      "name": "South of the River",
+      "release_date": "2017-07-04",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5skuDvNBFqXOcF1diqTZaJ"
+    },
+    {
+      "id": "4co3h0A5iBiGn7i9EK4ZFW",
+      "name": "5 Day Mischon",
+      "release_date": "2017-03-31",
+      "total_tracks": 5,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4co3h0A5iBiGn7i9EK4ZFW"
+    },
+    {
+      "id": "2JLfGBhpSviLhgmxqfODW0",
+      "name": "Watch Me Dance (Crackazat Remix)",
+      "release_date": "2016-12-23",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/2JLfGBhpSviLhgmxqfODW0"
+    },
+    {
+      "id": "4yYReqYqKMAPpdc7Yk0jjP",
+      "name": "Midnight Mischief (Tom Misch Remix)",
+      "release_date": "2016-09-19",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4yYReqYqKMAPpdc7Yk0jjP"
+    },
+    {
+      "id": "4sY8oLyD8SYQxLA1xc5Xq6",
+      "name": "Reverie",
+      "release_date": "2016-07-15",
+      "total_tracks": 4,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4sY8oLyD8SYQxLA1xc5Xq6"
+    },
+    {
+      "id": "3LaOgyaShyrdyet6ftXxDy",
+      "name": "I Wish",
+      "release_date": "2016-06-28",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3LaOgyaShyrdyet6ftXxDy"
+    },
+    {
+      "id": "7Dw72MgNWOIWV8zvylFF4V",
+      "name": "Crazy Dream",
+      "release_date": "2016-06-08",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7Dw72MgNWOIWV8zvylFF4V"
+    },
+    {
+      "id": "5Hbogrukylm91E91osFIoE",
+      "name": "Watch Me Dance",
+      "release_date": "2016-05-23",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5Hbogrukylm91E91osFIoE"
+    },
+    {
+      "id": "5Ikvy9jADetTVuf2VkPgkM",
+      "name": "Nightgowns",
+      "release_date": "2015-08-21",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5Ikvy9jADetTVuf2VkPgkM"
+    },
+    {
+      "id": "3XU4FfauOvZKKj3Xc0B8iM",
+      "name": "Wander With Me",
+      "release_date": "2015-08-14",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3XU4FfauOvZKKj3Xc0B8iM"
+    },
+    {
+      "id": "5bdT7WD66OqGqfMymRng4O",
+      "name": "Wake Up This Day",
+      "release_date": "2015-08-07",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5bdT7WD66OqGqfMymRng4O"
+    },
+    {
+      "id": "6i3LAMLHRqci7G4iOcwnZI",
+      "name": "In the Midst of It All",
+      "release_date": "2015-07-31",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/6i3LAMLHRqci7G4iOcwnZI"
+    },
+    {
+      "id": "53idC1wPRO1kwhCjrQXXWH",
+      "name": "Sunshine",
+      "release_date": "2015-06-16",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/53idC1wPRO1kwhCjrQXXWH"
+    },
+    {
+      "id": "4vy9fZJDoBiU3e0MSjOfvw",
+      "name": "Out to Sea",
+      "release_date": "2014-12-08",
+      "total_tracks": 5,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4vy9fZJDoBiU3e0MSjOfvw"
+    },
+    {
+      "id": "3i2q9STmiRxp7w06YVZJXJ",
+      "name": "So Close",
+      "release_date": "2014-11-03",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3i2q9STmiRxp7w06YVZJXJ"
+    },
+    {
+      "id": "4IEc3kRSPZoH0OUEfDSKI2",
+      "name": "Memory",
+      "release_date": "2014-06-30",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4IEc3kRSPZoH0OUEfDSKI2"
+    }
+  ],
+  "related_artists": [],
+  "search_query": "Tom Misch",
+  "country_market": "US"
+}

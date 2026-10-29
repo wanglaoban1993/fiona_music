@@ -1,0 +1,222 @@
+{
+  "artist": {
+    "id": "3oy24E0Tm3ZQZKdxTxVpfi",
+    "name": "Luise Helm",
+    "url": "https://open.spotify.com/artist/3oy24E0Tm3ZQZKdxTxVpfi",
+    "followers": 2399,
+    "popularity": 50,
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273b841d1a54128e6d45f399b5f",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02b841d1a54128e6d45f399b5f",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d000048516f007b3f710a4121adcb5de6",
+        "height": 64,
+        "width": 64
+      }
+    ]
+  },
+  "top_tracks": [
+    {
+      "name": "Die Frau, die nie fror, Teil 1.1 - Die Frau, die nie fror",
+      "popularity": 8,
+      "duration_ms": 189900,
+      "duration_min": 3.17,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/0qmBNiqPprLRMkGLrIqttW",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    },
+    {
+      "name": "Die Frau, die nie fror, Teil 1.2 & Die Frau, die nie fror, Teil 2.1 - Die Frau, die nie fror",
+      "popularity": 6,
+      "duration_ms": 187640,
+      "duration_min": 3.13,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6axcLZADEws9XdrCG00VLI",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    },
+    {
+      "name": "Die Frau, die nie fror, Teil 2.2 - Die Frau, die nie fror",
+      "popularity": 6,
+      "duration_ms": 188500,
+      "duration_min": 3.14,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/25O2W6qFGq4LNN0GWjBdQ0",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    },
+    {
+      "name": "Die Frau, die nie fror, Teil 2.3 - Die Frau, die nie fror",
+      "popularity": 5,
+      "duration_ms": 188200,
+      "duration_min": 3.14,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/2F7NKGz0gs88AGcZsOxpYx",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    },
+    {
+      "name": "Die Frau, die nie fror, Teil 2.4 & Die Frau, die nie fror, Teil 3.1 - Die Frau, die nie fror",
+      "popularity": 5,
+      "duration_ms": 185293,
+      "duration_min": 3.09,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/5lsZuzrAHiDD6SVYXhMlBB",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    },
+    {
+      "name": "Die Frau, die nie fror, Teil 4.3 & Die Frau, die nie fror, Teil 5.1 - Die Frau, die nie fror",
+      "popularity": 5,
+      "duration_ms": 187543,
+      "duration_min": 3.13,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6Kh1dmw8Gzi18FUpW4htho",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    },
+    {
+      "name": "Die Frau, die nie fror, Teil 3.3 & Die Frau, die nie fror, Teil 4.1 - Die Frau, die nie fror",
+      "popularity": 5,
+      "duration_ms": 186082,
+      "duration_min": 3.1,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/1nbndI8G1S0t9vr4nMv23V",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    },
+    {
+      "name": "Die Frau, die nie fror, Teil 3.2 - Die Frau, die nie fror",
+      "popularity": 5,
+      "duration_ms": 187900,
+      "duration_min": 3.13,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/44F7aXa6Pc0UcyzbPodqlY",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    },
+    {
+      "name": "Die Frau, die nie fror, Teil 4.2 - Die Frau, die nie fror",
+      "popularity": 5,
+      "duration_ms": 188000,
+      "duration_min": 3.13,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/0DqKwBlzYYXWCCeU5EzMkZ",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    },
+    {
+      "name": "Die Frau, die nie fror, Teil 5.2 - Die Frau, die nie fror",
+      "popularity": 5,
+      "duration_ms": 185600,
+      "duration_min": 3.09,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/1G24CgtgwuBhJHbMm5nbTN",
+      "album": {
+        "name": "Die Frau, die nie fror",
+        "release_date": "2014-02-01",
+        "total_tracks": 178
+      },
+      "artists": [
+        "Elisabeth Elo",
+        "Luise Helm"
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "id": "0fB4V9zIka4sR3Mu6jNsAB",
+      "name": "Die Frau, die nie fror",
+      "release_date": "2014-02-01",
+      "total_tracks": 178,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/0fB4V9zIka4sR3Mu6jNsAB"
+    }
+  ],
+  "related_artists": [],
+  "search_query": "Frankfurt Helmet",
+  "country_market": "US"
+}

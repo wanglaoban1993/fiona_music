@@ -1,0 +1,423 @@
+{
+  "artist": {
+    "id": "5nUvL1UfxXAx9Z4DIj6URq",
+    "name": "LAMI",
+    "url": "https://open.spotify.com/artist/5nUvL1UfxXAx9Z4DIj6URq",
+    "followers": 128233,
+    "popularity": 45,
+    "genres": [],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebe024ca87dcba5baf1c5f0481",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174e024ca87dcba5baf1c5f0481",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178e024ca87dcba5baf1c5f0481",
+        "height": 160,
+        "width": 160
+      }
+    ]
+  },
+  "top_tracks": [
+    {
+      "name": "VERSCHLAFEN",
+      "popularity": 47,
+      "duration_ms": 157058,
+      "duration_min": 2.62,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/5bOxhVrxZ5l7raq8G15bIm",
+      "album": {
+        "name": "VERSCHLAFEN",
+        "release_date": "2025-05-31",
+        "total_tracks": 1
+      },
+      "artists": [
+        "LAMI"
+      ]
+    },
+    {
+      "name": "BRAINROT",
+      "popularity": 45,
+      "duration_ms": 159853,
+      "duration_min": 2.66,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/5t45Hfs5MnnweqvY1BP9ek",
+      "album": {
+        "name": "BRAINROT",
+        "release_date": "2025-09-06",
+        "total_tracks": 1
+      },
+      "artists": [
+        "Flakezc",
+        "LAMI"
+      ]
+    },
+    {
+      "name": "BROKE",
+      "popularity": 44,
+      "duration_ms": 88051,
+      "duration_min": 1.47,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/67S4tV7CTw303wQy2RLQie",
+      "album": {
+        "name": "BROKE",
+        "release_date": "2025-09-13",
+        "total_tracks": 1
+      },
+      "artists": [
+        "LAMI",
+        "CandyPRP"
+      ]
+    },
+    {
+      "name": "BROOKHAVEN",
+      "popularity": 43,
+      "duration_ms": 142352,
+      "duration_min": 2.37,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6GnfJ60Kygqp40SEIzcMAF",
+      "album": {
+        "name": "BROOKHAVEN",
+        "release_date": "2025-07-05",
+        "total_tracks": 1
+      },
+      "artists": [
+        "LAMI",
+        "Canselguel"
+      ]
+    },
+    {
+      "name": "LAMI IST BACK",
+      "popularity": 43,
+      "duration_ms": 161150,
+      "duration_min": 2.69,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/1oV2NamhgmPdovLKKaE2WP",
+      "album": {
+        "name": "LAMI IST BACK",
+        "release_date": "2025-03-22",
+        "total_tracks": 1
+      },
+      "artists": [
+        "LAMI"
+      ]
+    },
+    {
+      "name": "MONEY",
+      "popularity": 43,
+      "duration_ms": 148181,
+      "duration_min": 2.47,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/4MkZPVVqkxQutsDqh0jbp6",
+      "album": {
+        "name": "MONEY",
+        "release_date": "2023-09-15",
+        "total_tracks": 1
+      },
+      "artists": [
+        "LAMI"
+      ]
+    },
+    {
+      "name": "DÖNER",
+      "popularity": 42,
+      "duration_ms": 130140,
+      "duration_min": 2.17,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/5cE4dbdXxi8Ra6wGcvJxeb",
+      "album": {
+        "name": "DÖNER",
+        "release_date": "2023-09-01",
+        "total_tracks": 1
+      },
+      "artists": [
+        "LAMI"
+      ]
+    },
+    {
+      "name": "PARTY",
+      "popularity": 42,
+      "duration_ms": 126882,
+      "duration_min": 2.11,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/5Q64j8uj8EFSnfXnphUawz",
+      "album": {
+        "name": "PARTY",
+        "release_date": "2024-12-28",
+        "total_tracks": 1
+      },
+      "artists": [
+        "LAMI"
+      ]
+    },
+    {
+      "name": "1 MILLION",
+      "popularity": 41,
+      "duration_ms": 141666,
+      "duration_min": 2.36,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/2K6buMICRNisgna7p0tc1g",
+      "album": {
+        "name": "1 MILLION",
+        "release_date": "2023-09-29",
+        "total_tracks": 1
+      },
+      "artists": [
+        "LAMI"
+      ]
+    },
+    {
+      "name": "LOVE",
+      "popularity": 40,
+      "duration_ms": 111032,
+      "duration_min": 1.85,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/3e2Nzw7VfAS3S21zc2j8xF",
+      "album": {
+        "name": "LOVE",
+        "release_date": "2025-03-01",
+        "total_tracks": 1
+      },
+      "artists": [
+        "LAMI"
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "id": "45n9STS6xSHWVmEYyuoEyX",
+      "name": "ONLINE",
+      "release_date": "2025-10-04",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/45n9STS6xSHWVmEYyuoEyX"
+    },
+    {
+      "id": "3WTujpZs4bI56EIvn12WaF",
+      "name": "BROKE",
+      "release_date": "2025-09-13",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3WTujpZs4bI56EIvn12WaF"
+    },
+    {
+      "id": "26XFzI42V9mtuwnN5WOUo7",
+      "name": "BRAINROT",
+      "release_date": "2025-09-06",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/26XFzI42V9mtuwnN5WOUo7"
+    },
+    {
+      "id": "5c3PCP9WUXNY3uEwA475iK",
+      "name": "⁠Последний танец",
+      "release_date": "2025-09-05",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5c3PCP9WUXNY3uEwA475iK"
+    },
+    {
+      "id": "4d0CyDuGu5ymCcHtduunfN",
+      "name": "BROOKHAVEN",
+      "release_date": "2025-07-05",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4d0CyDuGu5ymCcHtduunfN"
+    },
+    {
+      "id": "6vuURSMKoeQxXhll14a2Uj",
+      "name": "VERSCHLAFEN",
+      "release_date": "2025-05-31",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/6vuURSMKoeQxXhll14a2Uj"
+    },
+    {
+      "id": "4yRaAvBUxk64emIOFR8yNK",
+      "name": "LAMI IST BACK",
+      "release_date": "2025-03-22",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4yRaAvBUxk64emIOFR8yNK"
+    },
+    {
+      "id": "7ty4nQIJ52irUdWUPkliTA",
+      "name": "LOVE",
+      "release_date": "2025-03-01",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7ty4nQIJ52irUdWUPkliTA"
+    },
+    {
+      "id": "56ENBobCC1FHPnPJ1btV02",
+      "name": "PARTY",
+      "release_date": "2024-12-28",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/56ENBobCC1FHPnPJ1btV02"
+    },
+    {
+      "id": "3HdPsrl0RWYqx8neLORbcs",
+      "name": "TEAM LAMI",
+      "release_date": "2024-11-30",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3HdPsrl0RWYqx8neLORbcs"
+    },
+    {
+      "id": "18abJEexbG2MXSxCVPnhw5",
+      "name": "1 MIO STERNE (REMIX)",
+      "release_date": "2024-10-16",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/18abJEexbG2MXSxCVPnhw5"
+    },
+    {
+      "id": "6YPfZKRTaYO5jXV2tPjsI7",
+      "name": "SUSSY TANZ (REMIX)",
+      "release_date": "2024-09-21",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/6YPfZKRTaYO5jXV2tPjsI7"
+    },
+    {
+      "id": "3VXlwVMjcIiQkR3VhFMqpc",
+      "name": "ROBLOX",
+      "release_date": "2024-07-05",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3VXlwVMjcIiQkR3VhFMqpc"
+    },
+    {
+      "id": "5O4x7Rpq724sUCLtNGItQp",
+      "name": "SUPERSTAR",
+      "release_date": "2024-06-14",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5O4x7Rpq724sUCLtNGItQp"
+    },
+    {
+      "id": "0v1P0xGAa0PUcMRuT9X2jN",
+      "name": "#TEAMPINK",
+      "release_date": "2024-05-31",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0v1P0xGAa0PUcMRuT9X2jN"
+    },
+    {
+      "id": "07NNKZqCgocT6PiWhKuozf",
+      "name": "1 MILLION (REMIX)",
+      "release_date": "2024-04-07",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/07NNKZqCgocT6PiWhKuozf"
+    },
+    {
+      "id": "5PWcETItdriJc4NeAd8B0p",
+      "name": "SUI (REMIX)",
+      "release_date": "2024-03-16",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5PWcETItdriJc4NeAd8B0p"
+    },
+    {
+      "id": "7sYeALDV3jLxPbWFiLTkyv",
+      "name": "CANDY DISSTRACK",
+      "release_date": "2024-03-08",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7sYeALDV3jLxPbWFiLTkyv"
+    },
+    {
+      "id": "5MG5H9zo2duT6Kss5R5ltL",
+      "name": "WOP",
+      "release_date": "2024-02-03",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5MG5H9zo2duT6Kss5R5ltL"
+    },
+    {
+      "id": "2Yf0pT7m7skJucPS4YydUK",
+      "name": "BIBIBI",
+      "release_date": "2024-01-21",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/2Yf0pT7m7skJucPS4YydUK"
+    },
+    {
+      "id": "0oIyqOQRZboLQxSFdIlOfk",
+      "name": "LALALA",
+      "release_date": "2023-11-18",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0oIyqOQRZboLQxSFdIlOfk"
+    },
+    {
+      "id": "0XnmKbvlxexen3QTkWDLqK",
+      "name": "SUSSY",
+      "release_date": "2023-10-27",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0XnmKbvlxexen3QTkWDLqK"
+    },
+    {
+      "id": "5A5j4yVG4GuN1jRsr6lrJ3",
+      "name": "1 MILLION",
+      "release_date": "2023-09-29",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/5A5j4yVG4GuN1jRsr6lrJ3"
+    },
+    {
+      "id": "26MSus3dG4RKJ6v1Nf8oKB",
+      "name": "MONEY",
+      "release_date": "2023-09-15",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/26MSus3dG4RKJ6v1Nf8oKB"
+    },
+    {
+      "id": "42nvzhwd4sCw1SzMk7orcK",
+      "name": "DÖNER",
+      "release_date": "2023-09-01",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/42nvzhwd4sCw1SzMk7orcK"
+    },
+    {
+      "id": "7jSXaTiBUWEjngBynLe2rt",
+      "name": "SUI",
+      "release_date": "2023-08-11",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7jSXaTiBUWEjngBynLe2rt"
+    },
+    {
+      "id": "2CsccRbzE8yaTIoAi4ERIj",
+      "name": "SUSSY TANZ",
+      "release_date": "2023-07-10",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/2CsccRbzE8yaTIoAi4ERIj"
+    }
+  ],
+  "related_artists": [],
+  "search_query": "法兰克福头盔",
+  "country_market": "US"
+}

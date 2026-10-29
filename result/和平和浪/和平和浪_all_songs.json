@@ -1,0 +1,410 @@
+[
+  {
+    "name": "The first",
+    "popularity": 1,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/55US0OZZdGC05GMNvnBwGy",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "丽园便利店",
+    "popularity": 0,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/74wS0KQl6LYaknJZOii71H",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "I feel so right",
+    "popularity": 0,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6GT6zgDwfZYHspDmOwLk22",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "9 more minutes sleep",
+    "popularity": 0,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/0iYDFzrpEzzg2Sxpnwca0s",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "Watersoul",
+    "popularity": 0,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2A5sEnyokpSzS0Y4x4CG4q",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "One Two Three",
+    "popularity": 0,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5mQ8aZ9vXPYko5HM8XCAWL",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "土豆",
+    "popularity": 0,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6pLBXvTD27SibdxHdEKTLc",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "安福爱情故事",
+    "popularity": 0,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1pKwvkD1PGzE937233ymQu",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "48hrs",
+    "popularity": 1,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1RxcfkQkxPniuBUYIzxc9V",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "summer",
+    "popularity": 1,
+    "album": "安福大厅",
+    "release_date": "2019-09-19",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7wmRG2u9RrXlqq2KkkREON",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "星期三日落",
+    "popularity": 0,
+    "album": "无眠夜",
+    "release_date": "2023-08-02",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/75v2o1UZnDFY3LQSXdK4W4",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "迷雾晚餐",
+    "popularity": 0,
+    "album": "无眠夜",
+    "release_date": "2023-08-02",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/26LYfyPk19jAX602stu3oq",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "Things Don't Work",
+    "popularity": 0,
+    "album": "无眠夜",
+    "release_date": "2023-08-02",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/4mgiMcPiP12Y6j97NFrBlQ",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "Bury Night",
+    "popularity": 0,
+    "album": "无眠夜",
+    "release_date": "2023-08-02",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2M5yLroQrPPhmnhCypf7yX",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "Skinny Miller",
+    "popularity": 0,
+    "album": "无眠夜",
+    "release_date": "2023-08-02",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7C1j8sKnE4CVi6bmo8kBsm",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "无眠夜",
+    "popularity": 0,
+    "album": "无眠夜",
+    "release_date": "2023-08-02",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7gafCUdH4aOXP9IhsIMm0i",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "一輩子的孤單 - 滾石40 滾石撞樂隊 40團拚經典 (原唱:劉若英)",
+    "popularity": 20,
+    "album": "滾石40 滾石撞樂隊 40團拚經典 - 一輩子的孤單",
+    "release_date": "2022-01-21",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5JnIBmclrhGVxE0fL9iFnJ",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "丽园便利店",
+    "popularity": 1,
+    "album": "丽园便利店",
+    "release_date": "2019-09-09",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2Tr6hISvS9MaqOBWKmKZr4",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "48hrs",
+    "popularity": 0,
+    "album": "48hrs",
+    "release_date": "2019-08-24",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7kr8oOuUuk7KMdOWEmrzwU",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "Summer",
+    "popularity": 0,
+    "album": "Summer",
+    "release_date": "2019-07-05",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7rjQLqDqsgXJV6doYHE4WH",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "土豆",
+    "popularity": 0,
+    "album": "土豆",
+    "release_date": "2018-04-24",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/686lZ6qjVKkIOwdu6gCjdk",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "48hrs",
+    "popularity": 0,
+    "album": "好腰Bside",
+    "release_date": "2017-12-13",
+    "album_type": "single",
+    "explicit": true,
+    "spotify_url": "https://open.spotify.com/track/0kOJU5JNMG66FFAwhXz2pY",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "9 More Minutes Sleep",
+    "popularity": 0,
+    "album": "好腰Bside",
+    "release_date": "2017-12-13",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/4LkMtcAV5o5Ma8QWa0cDJ8",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "Watersoul",
+    "popularity": 0,
+    "album": "好腰Bside",
+    "release_date": "2017-12-13",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/66x5cySdK8Ea8vhGOO7iSG",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "安福爱情故事",
+    "popularity": 0,
+    "album": "好腰Bside",
+    "release_date": "2017-12-13",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/4x6HevYI0jYWouciIUtxTg",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "Summer",
+    "popularity": 4,
+    "album": "好腰Bside",
+    "release_date": "2017-12-13",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6BFhZaTt3rgnjM1W4LulRc",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "丽园便利店",
+    "popularity": 6,
+    "album": "好腰Aside",
+    "release_date": "2017-10-16",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5EgdAJLJ4fKHabUBpFkGVG",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "国王",
+    "popularity": 0,
+    "album": "好腰Aside",
+    "release_date": "2017-10-16",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2Q6j10CTTIz6UWKyundxOV",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "Vulfjam",
+    "popularity": 0,
+    "album": "好腰Aside",
+    "release_date": "2017-10-16",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7eE0O8JQeXKlmuLVGuWqse",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "Funky Party",
+    "popularity": 0,
+    "album": "好腰Aside",
+    "release_date": "2017-10-16",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/0HxkKhdM3KpSre7Qa49OqP",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "瑞奇李小龙",
+    "popularity": 0,
+    "album": "好腰Aside",
+    "release_date": "2017-10-16",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5QM1FeNSrODDH4osuqj0Ep",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "9 More Minutes Sleep",
+    "popularity": 0,
+    "album": "9 More Minutes Sleep",
+    "release_date": "2017-09-22",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1In87YeV1CbIQ41I9bmXng",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "瑞奇李小龙",
+    "popularity": 2,
+    "album": "瑞奇李小龙",
+    "release_date": "2017-07-25",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/04FxRQYy0HgW7oc0N1he9w",
+    "artists": [
+      "和平和浪"
+    ]
+  },
+  {
+    "name": "公园",
+    "popularity": 0,
+    "album": "公园",
+    "release_date": "2016-12-29",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/0jp1xcYq5DJCjPbgNKUcwt",
+    "artists": [
+      "和平和浪"
+    ]
+  }
+]

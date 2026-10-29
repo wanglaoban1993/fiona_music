@@ -1,0 +1,606 @@
+[
+  {
+    "name": "Intro",
+    "popularity": 22,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2yXFsdHXBqdtN4fzZycbOq",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "漫漫長夜",
+    "popularity": 31,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/76pQjZTR34xPK5GS4V7chR",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "黑暗之中閉上眼",
+    "popularity": 37,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/3ZrM3VPO2azJJqirwg8aJj",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "霧",
+    "popularity": 28,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/4XqR8ZA0yS175gcnvFyKz7",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "B1",
+    "popularity": 26,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/0RPd9KdadsLH6cjMdHLBfS",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "臥室",
+    "popularity": 30,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7nJetTaFXcXkBhewrRYA46",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "散去的時候",
+    "popularity": 29,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2q55902zU9RBPRNNBcQlpi",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "多完美的一天",
+    "popularity": 30,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5bsXbMTYcb4c9UxLOwe3Xb",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "午夜的消亡",
+    "popularity": 27,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/3HE3Hei8liO3QC3xgjiNm1",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "Outro",
+    "popularity": 21,
+    "album": "鳥鳥鳥 Bird and Reflections",
+    "release_date": "2020-12-28",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6ZuIYZQMSoMzosATj5s52y",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "一去不回來 (LP Version)",
+    "popularity": 18,
+    "album": "浴室 (LP Version)",
+    "release_date": "2019-09-27",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/245ORz54hsmoKqqmVQQUi4",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "快樂 (LP Version)",
+    "popularity": 16,
+    "album": "浴室 (LP Version)",
+    "release_date": "2019-09-27",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1K9obKItFwMd1NEM3CxTrV",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "巫賭 (LP Version)",
+    "popularity": 24,
+    "album": "浴室 (LP Version)",
+    "release_date": "2019-09-27",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/4aZNZRZYg6LWbn6PJiakNc",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "關渡口 (LP Version)",
+    "popularity": 14,
+    "album": "浴室 (LP Version)",
+    "release_date": "2019-09-27",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6fhFAT4lyPcb5uPSvR7b3Z",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "藍色 (LP Version)",
+    "popularity": 15,
+    "album": "浴室 (LP Version)",
+    "release_date": "2019-09-27",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/39ygrOEVxGQnFcqsNnRYIO",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "春天游泳 (LP Version)",
+    "popularity": 15,
+    "album": "浴室 (LP Version)",
+    "release_date": "2019-09-27",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/0bmOv9QipErJPmCNeP6OI9",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "路 (LP Version)",
+    "popularity": 16,
+    "album": "浴室 (LP Version)",
+    "release_date": "2019-09-27",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6XUaX1eyjZQ502RwfkmzvS",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "浴室 (LP Version)",
+    "popularity": 22,
+    "album": "浴室 (LP Version)",
+    "release_date": "2019-09-27",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1SLfGMlDNaqjmCl7UTvBW0",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "夢 (LP Version)",
+    "popularity": 16,
+    "album": "浴室 (LP Version)",
+    "release_date": "2019-09-27",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/0lwLidKaoM1S5eyyzdng1t",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "一去不回來",
+    "popularity": 34,
+    "album": "浴室",
+    "release_date": "2017-04-21",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1ynznBHgWYSSnd7ip66zAR",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "快樂",
+    "popularity": 30,
+    "album": "浴室",
+    "release_date": "2017-04-21",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2ei7dN2fT21JFEvJoCBrfB",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "巫堵",
+    "popularity": 39,
+    "album": "浴室",
+    "release_date": "2017-04-21",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6CxQsBfTmhx0RsoJoV8hH7",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "關渡口",
+    "popularity": 25,
+    "album": "浴室",
+    "release_date": "2017-04-21",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5PhafOtxuZj1RnQVjRsqQf",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "藍色",
+    "popularity": 23,
+    "album": "浴室",
+    "release_date": "2017-04-21",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7r35CzrBQ4e9gcp6UUWWkw",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "春天游泳",
+    "popularity": 28,
+    "album": "浴室",
+    "release_date": "2017-04-21",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7Bkqrh3AQsfvNIBFTidQWT",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "路",
+    "popularity": 26,
+    "album": "浴室",
+    "release_date": "2017-04-21",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2eCPgojlNpyMciPSpwbXVM",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "浴室",
+    "popularity": 47,
+    "album": "浴室",
+    "release_date": "2017-04-21",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2Xu6fN0gE2S04L0zywmcif",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "夢",
+    "popularity": 32,
+    "album": "浴室",
+    "release_date": "2017-04-21",
+    "album_type": "album",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/76y6sF5RVHJqnWDPAoMDxD",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "我不用問",
+    "popularity": 46,
+    "album": "我不用問",
+    "release_date": "2025-09-30",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6lH3RIIRaKOpyvAk8HX7DW",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "偏見",
+    "popularity": 42,
+    "album": "偏見",
+    "release_date": "2025-07-30",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/7wlocnIB0q2PJNPnXuSAyI",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "我和我的遐想",
+    "popularity": 32,
+    "album": "暗流",
+    "release_date": "2023-12-12",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5QS7xPc9yD6hiyyDnM87Ia",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "暗流",
+    "popularity": 28,
+    "album": "暗流",
+    "release_date": "2023-12-12",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2k3JtZNj3VZkHdefEssZmO",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "天堂與泥土",
+    "popularity": 31,
+    "album": "暗流",
+    "release_date": "2023-12-12",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/0I1YidoarFCsbkHu8ZkfrN",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "沈澱",
+    "popularity": 33,
+    "album": "暗流",
+    "release_date": "2023-12-12",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1uQWuwEAFP81pjw57jDPFM",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "Fog - Audiotree Live version",
+    "popularity": 21,
+    "album": "deca joins on Audiotree Live",
+    "release_date": "2023-11-07",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6aPVLKySfwYv2rH8ePzm8t",
+    "artists": [
+      "deca joins",
+      "Audiotree"
+    ]
+  },
+  {
+    "name": "Fa Shan Ke Chen - Audiotree Live version",
+    "popularity": 21,
+    "album": "deca joins on Audiotree Live",
+    "release_date": "2023-11-07",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/3UO6DrQcsLywiuRqoVrrNl",
+    "artists": [
+      "deca joins",
+      "Audiotree"
+    ]
+  },
+  {
+    "name": "Dream - Audiotree Live version",
+    "popularity": 22,
+    "album": "deca joins on Audiotree Live",
+    "release_date": "2023-11-07",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6Tsw7FUkkiv8a8UTbUIRXi",
+    "artists": [
+      "deca joins",
+      "Audiotree"
+    ]
+  },
+  {
+    "name": "Wave - Audiotree Live version",
+    "popularity": 22,
+    "album": "deca joins on Audiotree Live",
+    "release_date": "2023-11-07",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2ztbra0eA4PA2wcG2oNujk",
+    "artists": [
+      "deca joins",
+      "Audiotree"
+    ]
+  },
+  {
+    "name": "大雨 - 滾石40 滾石撞樂隊 40團拚經典 (原唱:娃娃)",
+    "popularity": 45,
+    "album": "滾石40 滾石撞樂隊 40團拚經典 - 大雨",
+    "release_date": "2021-12-31",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/3k1IJYrxcQvm9m7UbITf3d",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "乏善可陳 (Live)",
+    "popularity": 26,
+    "album": "3 Songs",
+    "release_date": "2020-06-01",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5LPwi9u33TecG7iMlmZC3k",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "夏夜晚風 (Live)",
+    "popularity": 36,
+    "album": "3 Songs",
+    "release_date": "2020-06-01",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/0hSgoJJQbYER9D9X2gGjsG",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "艷紅 (Live)",
+    "popularity": 27,
+    "album": "3 Songs",
+    "release_date": "2020-06-01",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2NCFpevBcNb764LIvvNH8F",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "霧",
+    "popularity": 22,
+    "album": "霧散去的時候",
+    "release_date": "2019-10-25",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/3pOJUQMZce35T2jxRHrql2",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "散去的時候",
+    "popularity": 41,
+    "album": "霧散去的時候",
+    "release_date": "2019-10-25",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/34t0kmh35RbxAVxbd7kT4j",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "浴室 (2019 Reprise)",
+    "popularity": 42,
+    "album": "浴室 (2019 Reprise)",
+    "release_date": "2019-09-27",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/2bULxhIu61XZm0hqJ4Kj39",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "Somewhere",
+    "popularity": 28,
+    "album": "Go Slow",
+    "release_date": "2018-11-14",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/6AejpKrXyngdeSjJzinY2t",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "海浪",
+    "popularity": 47,
+    "album": "Go Slow",
+    "release_date": "2018-11-14",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5EpLeWSwqOG0mZW0R4WdKQ",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "眼睛裡",
+    "popularity": 35,
+    "album": "Go Slow",
+    "release_date": "2018-11-14",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/5WKaQ69Uad8iJEHayGK9dG",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "夜間獨白",
+    "popularity": 41,
+    "album": "Go Slow",
+    "release_date": "2018-11-14",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1IcV5BAKb4OeR4zuenTgeP",
+    "artists": [
+      "deca joins"
+    ]
+  },
+  {
+    "name": "Go Slow",
+    "popularity": 30,
+    "album": "Go Slow",
+    "release_date": "2018-11-14",
+    "album_type": "single",
+    "explicit": false,
+    "spotify_url": "https://open.spotify.com/track/1iW73ZxZGyVyXKlfP5ivSZ",
+    "artists": [
+      "deca joins"
+    ]
+  }
+]

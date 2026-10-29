@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reichskampf 规则手册 · 三语版</title>
+<style>
+  @page {
+    size: A4;
+    margin: 18mm;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans CJK SC", "Noto Sans", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+    color: #111;
+    line-height: 1.35;
+  }
+  .cover {
+    height: calc(100vh - 36mm);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    page-break-after: always;
+  }
+  .cover h1 {
+    font-size: 28pt;
+    margin: 0 0 8mm 0;
+    letter-spacing: 0.5px;
+  }
+  .cover h2 {
+    font-size: 14pt;
+    font-weight: normal;
+    margin: 0 0 2mm 0;
+  }
+  .cover .meta {
+    font-size: 10pt;
+    opacity: 0.75;
+  }
+  .twocol { display: table; width: 100%; border-collapse: collapse; table-layout: fixed; }
+  .col { display: table-cell; width: 50%; vertical-align: top; padding: 0 6mm; border-left: 1px solid #ddd; }
+  .col:first-child { border-left: none; }
+  h2, h3, h4 { margin: 6mm 0 3mm; }
+  h2 { font-size: 16pt; }
+  h3 { font-size: 13pt; }
+  h4 { font-size: 11pt; }
+  p, li { font-size: 10.5pt; }
+  ul { margin: 0 0 4mm 6mm; padding: 0; }
+  table {
+    width: 100%; border-collapse: collapse; margin: 2mm 0 4mm;
+    font-size: 10pt;
+  }
+  th, td { border: 1px solid #ccc; padding: 2mm 2.5mm; vertical-align: top; }
+  th { background: #f5f5f5; }
+  .note { font-size: 9.5pt; color: #444; }
+  .example-card { border: 1px dashed #999; padding: 3mm; border-radius: 3mm; margin: 2mm 0 4mm; }
+  .pagebreak { page-break-after: always; }
+  .footer {
+    margin-top: 6mm; font-size: 9pt; color: #666;
+  }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <h1>Reichskampf 规则手册 · 三语版</h1>
+  <h2>Trilingual Template (CN · EN · DE)</h2>
+  <div class="meta">A4 · 适合打印/导出PDF</div>
+</div>
+<h2>中文</h2>
+<h2>🎮 《Reichskampf：帝国纷争》游戏概要</h2><h3>基本设定</h3>
+<ul><li><b>名称</b>：Reichskampf（帝国纷争）</li>
+<li><b>阵营</b>：1) 皇帝+诸侯（Kaiser+Küfersten）；2) 教皇（Papst）；3) 新教（Protestant）；4) 外势力（Fremdkraft）</li>
+<li><b>示例配置</b>：6名玩家，比例 1+1 : 1 : 2 : 1</li>
+<li><b>属性</b>：每人有生命（HP）与信仰（Faith）；Kaiser 生命5，其余3–4；信仰范围0–6，初始2–4。</li>
+<li><b>卡牌总数</b>：108张（约两副扑克）。</li></ul>
+<h3>基本牌（88张）</h3>
+<table>
+<thead><tr><th>名称</th><th>英文</th><th>效果</th></tr></thead>
+<tbody>
+<tr><td>出征（Feldzug）</td><td>Campaign</td><td>对目标造成 -1 生命（29）</td></tr>
+<tr><td>协定（Abkommen）</td><td>Agreement</td><td>抵挡一次出征（15）</td></tr>
+<tr><td>祈祷（Gebet）</td><td>Prayer</td><td>+1 信仰或 +1 生命（8）</td></tr>
+<tr><td>布道（Predigt）</td><td>Sermon</td><td>全体 +1 信仰与 +1 生命（2）</td></tr>
+<tr><td>民变（Aufstand）</td><td>Uprising</td><td>所有人出征一次，无牌者 -1 生命 -1 信仰（2）</td></tr>
+<tr><td>异端审判（Inquisition）</td><td>Inquisition</td><td>判定黑桃2–9：目标 -2 生命 +1 信仰（2）</td></tr>
+<tr><td>火刑审判（Scheiterhaufen）</td><td>Death by Burning</td><td>判定红桃2–9：目标 -3 生命（1）</td></tr>
+<tr><td>赎罪券（Ablassbrief）</td><td>Indulgence</td><td>目标摸牌并 +1 信仰（4）</td></tr>
+<tr><td>莱比锡辩论</td><td>Leipzig Disputation</td><td>比牌点数，输者 -1 信仰（3）</td></tr>
+<tr><td>外交（Diplomatie）</td><td>Diplomacy</td><td>与距离2内玩家交换牌（5）</td></tr>
+<tr><td>帝国议会（Reichstag）</td><td>Reichstag</td><td>投票决定圣约是否破裂（2）</td></tr>
+<tr><td>开除教籍（Exkommunikation）</td><td>Excommunication</td><td>判定红桃：跳过下回合（3）</td></tr>
+<tr><td>围城（Belagerung）</td><td>Siege</td><td>判定失败：跳过摸牌阶段（1）</td></tr>
+<tr><td>赦免（Absolution）</td><td>Absolution</td><td>抵消所有基本牌（除出征与议会）（4）</td></tr>
+<tr><td>第十次十字军</td><td>Tenth Crusade</td><td>全体 +1 信仰（1）</td></tr>
+<tr><td>异端追捕（Ketzrjagd）</td><td>Hunt for Heretics</td><td>可被协定或祈祷抵挡（1）</td></tr>
+<tr><td>圣约（Konkordat）</td><td>Concordat</td><td>开局置于 Kaiser 旁（1）</td></tr>
+<tr><td>五谷丰登</td><td>Blessing of the Harvest</td><td>全体摸1（1）</td></tr>
+<tr><td>信仰崩塌</td><td>Decline of Faith</td><td>目标 -2 信仰（2）</td></tr>
+<tr><td>离间计</td><td>Sowing Discord</td><td>借用他人武器攻击（2）</td></tr>
+</tbody>
+</table>
+
+<h3>坐骑牌（7张）</h3>
+<ul>
+<li>阿拉伯战马：攻距 -1；龙骑兵：攻距 -1，持武器可“双出征”；仆从雇佣军：攻距 -1；蒙古战马：防距 +1；皇家马车：防距 +1，可当一次协定后报废；圣驴：防距 +1，信仰 +1；奥斯曼战象：攻距 +1、防距 -1。</li>
+</ul>
+
+<h3>防具牌（4张）</h3>
+<ul>
+<li>真十字架：抵御所有信仰伤害；帝国胸甲：无法防御火器；条顿盾：黑色出征无效；圣殿披风：红色出征无效。</li>
+</ul>
+
+<h3>武器牌（含技能名）</h3>
+<table>
+<thead><tr><th>名称</th><th>英文</th><th>技能名</th><th>效果</th></tr></thead>
+<tbody>
+<tr><td>新教之锤</td><td>Hammer of Reformation</td><td><b>Religiöse Taufe</b></td><td>攻距 +1；命中：生命 -1、信仰 +1。</td></tr>
+<tr><td>火绳枪</td><td>Matchlock Gun</td><td><b>Zeitalter des Feuers</b></td><td>攻距 +3；无视防具，可摧毁坐骑。</td></tr>
+<tr><td>斧枪</td><td>Halberd</td><td><b>Erzwungener Angriff</b></td><td>攻距 +2；被协定抵消时，弃2牌令其仍受 -1 生命。</td></tr>
+<tr><td>土耳其弯刀</td><td>Ottoman Scimitar</td><td><b>Schaden der Heiden</b></td><td>攻距 +1；命中：生命 -1、信仰 -1。</td></tr>
+<tr><td>野战炮</td><td>Field Cannon</td><td><b>Parallele Berechnung</b></td><td>攻距 +4；同时出征两目标各一次，随后装填（跳过一回合）。</td></tr>
+<tr><td>双手剑</td><td>Zweihänder</td><td><b>Doppelter Schlag</b></td><td>攻距 +2；被抵消时可再对同一目标出征一次。</td></tr>
+<tr><td>风琴炮</td><td>Organ Gun</td><td><b>Dauerfeuer</b></td><td>攻距 +2；可对同一目标连打至多5次。</td></tr>
+</tbody>
+</table>
+
+<h3>机制与胜利</h3>
+<h4>阵营初始</h4>
+<ul><li>Kaiser、Küfersten、Papst 签订<b>圣约（Konkordat）</b>同阵营；Protestant、Fremdkraft为对立阵营。</li></ul>
+<h4>圣约状态</h4>
+<ul><li>Kaiser+Papst：击杀 Protestant；Küfersten：保护 Kaiser；Protestant+Fremdkraft：击杀 Papst 或 Kaiser 即胜。</li></ul>
+<h4>圣约破裂</h4>
+<ul><li>Papst 公开身份；Kaiser+Küfersten+Protestant 共同击杀 Papst；Papst 要击杀 Kaiser 与 Protestant；Fremdkraft 保护 Papst；Papst 死后 Kaiser 转而击杀 Fremdkraft。</li></ul>
+<h4>信仰线即时胜利</h4>
+<ul><li>平均信仰 &lt; 1 → Protestant 胜；平均信仰 ≥ 5 → Papst 胜。</li></ul>
+
+<h3>隐身份兼容补丁（仅 Kaiser 亮身份）</h3>
+<p class="note"><b>暗验（SAC）</b>：需要阵营判断时，仅由目标向发动者/裁定者显示“是/否”，不公开身份。</p>
+<ul>
+<li>查理五世【帝国号令】：伤害后暗验；若为新教则额外 -1 信仰（每回合一次）。</li>
+<li>马克西米利安一世【婚盟网络】：本回合对两名不同玩家外交成功后，对两者暗验；若阵营不同则你 摸1 且 +1 信仰。</li>
+<li>玛丽·德·吉斯【天主赞助】：破约后，首次对 Papst 阵营使用祈祷/赦免/布道时，暗验为真则双方 +1 信仰并各摸1（每局一次）。</li>
+<li>圣女贞德【神启护佑】：以红牌当协定护任意人；若暗验同阵营则双方 +1 信仰；破约后护 Papst 判定时可将红桃当祈祷。</li>
+</ul>
+
+<div class="pagebreak"></div>
+<h2>English</h2>
+<h2>🎮 Reichskampf — Game Overview</h2><h3>Basics</h3>
+<ul><li><b>Title</b>: Reichskampf (Empire Strife)</li>
+<li><b>Factions</b>: (1) Emperor+Electors; (2) Papacy; (3) Protestant; (4) Foreign Power</li>
+<li><b>Example Setup</b>: 6 players, ratio 1+1 : 1 : 2 : 1</li>
+<li><b>Attributes</b>: Each has Life (HP) and Faith; Kaiser HP=5, others 3–4; Faith 0–6, start 2–4.</li>
+<li><b>Total Cards</b>: 108 (≈two decks).</li></ul>
+<h3>Basic Cards (88)</h3>
+<p>(See mirrored Chinese table for counts and effects.)</p>
+<ul>
+<li>Feldzug (Campaign): -1 Life; Abkommen (Agreement): cancel one Feldzug; Gebet (Prayer): +1 Faith or +1 Life; Predigt (Sermon): all +1 Faith & +1 Life; Aufstand (Uprising): all play Feldzug, else -1 Life & -1 Faith; Inquisition: Spade 2–9 hit → -2 Life, +1 Faith; Scheiterhaufen: Heart 2–9 hit → -3 Life; Ablassbrief: target draws and +1 Faith; Leipzig Disputation: compare rank, loser -1 Faith; Diplomatie: swap within Range 2; Reichstag: vote Concordat; Exkommunikation: Heart → skip next Play; Belagerung: fail → skip Draw; Absolution: cancels basic cards except Feldzug/Reichstag; 10th Crusade: all +1 Faith; Ketzrjagd: blockable; Konkordat: starts by Kaiser; Segen der Ernte: all draw 1; Glaubensverfall: target -2 Faith; Zweitracht säen: borrow weapon to attack.</li>
+</ul>
+
+<h3>Mounts (7) & Armors (4)</h3>
+<p>Mirrors the Chinese list 1:1.</p>
+
+<h3>Weapons (with Skill Names)</h3>
+<ul>
+<li>Hammer of Reformation — <b>Religiöse Taufe</b>: +1 Range; on hit: -1 Life, +1 Faith.</li>
+<li>Matchlock Gun — <b>Zeitalter des Feuers</b>: +3 Range; ignore armors; destroy mount.</li>
+<li>Halberd — <b>Erzwungener Angriff</b>: +2 Range; if canceled by Agreement, discard 2 to still deal -1 Life.</li>
+<li>Ottoman Scimitar — <b>Schaden der Heiden</b>: +1 Range; on hit: -1 Life, -1 Faith.</li>
+<li>Field Cannon — <b>Parallele Berechnung</b>: +4 Range; attack two targets once each; then reload (skip a turn).</li>
+<li>Zweihänder — <b>Doppelter Schlag</b>: +2 Range; if canceled, attack same target again.</li>
+<li>Organ Gun — <b>Dauerfeuer</b>: +2 Range; up to 5 consecutive Feldzüge on same target.</li>
+</ul>
+
+<h3>Mechanics & Victory</h3>
+<h4>Starting Alliance</h4>
+<ul><li>Kaiser, Electors, and Papacy sign the <b>Concordat</b>; Protestant & Foreign on the other side.</li></ul>
+<h4>While Concordat Holds</h4>
+<ul><li>Kaiser+Papacy: eliminate Protestant; Electors protect Kaiser; Protestant+Foreign: eliminate Papacy or Kaiser.</li></ul>
+<h4>After Concordat Breaks</h4>
+<ul><li>Papacy reveals; Kaiser+Electors+Protestant vs Papacy; Papacy targets Kaiser & Protestant; Foreign protects Papacy; once Papacy dies, Kaiser targets Foreign.</li></ul>
+<h4>Faith-Line Instant Wins</h4>
+<ul><li>Average Faith &lt; 1 → Protestant wins; ≥ 5 → Papacy wins.</li></ul>
+
+<h3>Hidden Identity Patch (only Kaiser reveals)</h3>
+<p class="note"><b>Secret Alignment Check (SAC)</b>: when faction info is needed, target reveals “yes/no” to the user/ref, then hides again.</p>
+<ul>
+<li>Charles V — Imperial Edict: after damage, SAC; if Protestant, extra -1 Faith (once/turn).</li>
+<li>Maximilian I — Marriage Network: after two Diplomacy successes on different players this turn, SAC both; if different factions, draw 1 and +1 Faith.</li>
+<li>Mary of Guise — Catholic Patronage: after break, first Prayer/Absolution/Preaching on a Papacy ally → SAC; if true, both +1 Faith and draw 1 (once/game).</li>
+<li>Jeanne d’Arc — Divine Safeguard: red as Agreement for anyone; if same faction by SAC, both +1 Faith; after break, Hearts as Prayer on Papacy judgements.</li>
+</ul>
+
+<div class="pagebreak"></div>
+<h2>Deutsch</h2>
+<h2>🎮 Reichskampf — Spielüberblick</h2><h3>Grundlagen</h3>
+<ul><li><b>Titel</b>: Reichskampf</li>
+<li><b>Fraktionen</b>: (1) Kaiser+Kurfürsten; (2) Papsttum; (3) Protestanten; (4) Fremdkraft</li>
+<li><b>Beispiel-Setup</b>: 6 Spieler, Verhältnis 1+1 : 1 : 2 : 1</li>
+<li><b>Attribute</b>: Leben (HP) und Glaube; Kaiser HP=5, andere 3–4; Glaube 0–6, Start 2–4.</li>
+<li><b>Kartenanzahl</b>: 108 (≈zwei Pokerdecks).</li></ul>
+<h3>Basiskarten (88)</h3>
+<p>(Siehe chinesische Tabelle für Zahlen/Effekte.)</p>
+<ul>
+<li>Feldzug: -1 Leben; Abkommen: negiert einen Feldzug; Gebet: +1 Glaube oder +1 Leben; Predigt: alle +1 Glaube & +1 Leben; Aufstand: alle spielen Feldzug, sonst -1 Leben & -1 Glaube; Inquisition: Pik 2–9 trifft → -2 Leben, +1 Glaube; Scheiterhaufen: Herz 2–9 trifft → -3 Leben; Ablassbrief: Ziel zieht & +1 Glaube; Leipziger Disputation: Rangvergleich, Verlierer -1 Glaube; Diplomatie: Tausch in Reichweite 2; Reichstag: Abstimmung über Konkordat; Exkommunikation: Herz → nächste Aktionsphase aussetzen; Belagerung: Misslingt → Ziehphase aussetzen; Absolution: negiert Basiskarten außer Feldzug/Reichstag; 10. Kreuzzug: alle +1 Glaube; Ketzersuche: blockbar; Konkordat: Start beim Kaiser; Erntesegen: alle ziehen 1; Glaubensverfall: Ziel -2 Glaube; Zwietracht säen: Waffe borgen & angreifen.</li>
+</ul>
+
+<h3>Reittiere (7) & Rüstungen (4)</h3>
+<p>Wie auf der chinesischen Seite; 1:1 gespiegelt.</p>
+
+<h3>Waffen (mit Fähigkeitsnamen)</h3>
+<ul>
+<li>Hammer der Reformation — <b>Religiöse Taufe</b>: +1 Reichweite; Treffer: -1 Leben, +1 Glaube.</li>
+<li>Luntenschloss — <b>Zeitalter des Feuers</b>: +3 Reichweite; ignoriert Rüstungen; zerstört Reittier.</li>
+<li>Hellebarde — <b>Erzwungener Angriff</b>: +2 Reichweite; bei Abkommen: wirf 2 ab, um dennoch -1 Leben zuzufügen.</li>
+<li>Osmanischer Krumsäbel — <b>Schaden der Heiden</b>: +1 Reichweite; Treffer: -1 Leben, -1 Glaube.</li>
+<li>Feldkanone — <b>Parallele Berechnung</b>: +4 Reichweite; zwei Ziele je einmal; danach Nachladen (1 Runde aussetzen).</li>
+<li>Zweihänder — <b>Doppelter Schlag</b>: +2 Reichweite; bei Negierung erneut dasselbe Ziel angreifen.</li>
+<li>Ribauldequin — <b>Dauerfeuer</b>: +2 Reichweite; bis zu 5 Angriffe auf dasselbe Ziel.</li>
+</ul>
+
+<h3>Mechanik & Sieg</h3>
+<h4>Startbündnis</h4>
+<ul><li>Kaiser, Kurfürsten und Papsttum schließen das <b>Konkordat</b>; Protestanten & Fremdkraft gegenüber.</li></ul>
+<h4>Solange das Konkordat hält</h4>
+<ul><li>Kaiser+Papsttum: Protestanten ausschalten; Kurfürsten schützen Kaiser; Protestanten+Fremdkraft: Papst oder Kaiser ausschalten.</li></ul>
+<h4>Nach Bruch des Konkordats</h4>
+<ul><li>Papsttum offen; Kaiser+Kurfürsten+Protestanten vs Papsttum; Papsttum zielt auf Kaiser & Protestanten; Fremdkraft schützt Papsttum; stirbt das Papsttum, zielt der Kaiser auf Fremdkraft.</li></ul>
+<h4>Glaubenssofortsieg</h4>
+<ul><li>Ø-Glaube &lt; 1 → Protestanten siegen; ≥ 5 → Papsttum siegt.</li></ul>
+
+<h3>Verdeckte Identitäten (nur Kaiser offen)</h3>
+<p class="note"><b>Geheime Lagerprüfung (SAC)</b>: Ziel zeigt dem Anwender/Schiri kurz „ja/nein“ und verdeckt sofort wieder.</p>
+<ul>
+<li>Karl V. — Kaiserlicher Erlass: nach Schaden SAC; wenn Protestant, zusätzlich -1 Glaube (1×/Runde).</li>
+<li>Maximilian I. — Heiratsnetzwerk: nach zwei erfolgreichen Diplomatie-Aktionen (versch. Spieler) SAC; wenn verschiedenes Lager, ziehe 1 und +1 Glaube.</li>
+<li>Maria von Guise — Katholische Patronage: nach Bruch, erstes Gebet/Absolution/Predigt auf Papsttum → SAC; wenn wahr, beide +1 Glaube und ziehen 1 (1×/Partie).</li>
+<li>Jeanne d’Arc — Göttlicher Schutz: Rot als Abkommen für jeden; wenn gleiches Lager (SAC), beide +1 Glaube; nach Bruch Herz als Gebet für Papst-Urteile.</li>
+</ul>
+
+<div class="footer">© Reichskampf — Playtest Template</div>
+
+</body>
+</html>

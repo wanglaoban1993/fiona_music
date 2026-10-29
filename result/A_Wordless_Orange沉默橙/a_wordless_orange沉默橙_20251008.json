@@ -1,0 +1,230 @@
+{
+  "artist": {
+    "id": "2R9f16fD7Jb1XXnRmn7YdY",
+    "name": "A Wordless Orange（沉默橙)",
+    "url": "https://open.spotify.com/artist/2R9f16fD7Jb1XXnRmn7YdY",
+    "followers": 803,
+    "popularity": 11,
+    "genres": [
+      "chinese rock"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eb475fb53b9da4382150ad8714",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174475fb53b9da4382150ad8714",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178475fb53b9da4382150ad8714",
+        "height": 160,
+        "width": 160
+      }
+    ]
+  },
+  "top_tracks": [
+    {
+      "name": "Wu-Chang Library 天東閣",
+      "popularity": 16,
+      "duration_ms": 189232,
+      "duration_min": 3.15,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/0ALfmwuJ5wJJlt3pn7SwFM",
+      "album": {
+        "name": "裝高手(Guru Orange)",
+        "release_date": "2025-05-27",
+        "total_tracks": 5
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    },
+    {
+      "name": "Car to Pluto 飛車記",
+      "popularity": 14,
+      "duration_ms": 182400,
+      "duration_min": 3.04,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/1xKce8bBeumDvvFqvBGTrh",
+      "album": {
+        "name": "裝高手(Guru Orange)",
+        "release_date": "2025-05-27",
+        "total_tracks": 5
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    },
+    {
+      "name": "Be Bottle, My Wuhan 高手壺",
+      "popularity": 13,
+      "duration_ms": 216556,
+      "duration_min": 3.61,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/2xi7sSLqDqvdPYFMurtOaM",
+      "album": {
+        "name": "裝高手(Guru Orange)",
+        "release_date": "2025-05-27",
+        "total_tracks": 5
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    },
+    {
+      "name": "Chilling Drive 兜風",
+      "popularity": 12,
+      "duration_ms": 131781,
+      "duration_min": 2.2,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/50Oq7ogwp1wd6Oc9VcWaXv",
+      "album": {
+        "name": "裝高手(Guru Orange)",
+        "release_date": "2025-05-27",
+        "total_tracks": 5
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    },
+    {
+      "name": "Fall & Flow 落水流",
+      "popularity": 12,
+      "duration_ms": 180515,
+      "duration_min": 3.01,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/1HVDRIv1JjPgS39bS2pCd9",
+      "album": {
+        "name": "裝高手(Guru Orange)",
+        "release_date": "2025-05-27",
+        "total_tracks": 5
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    },
+    {
+      "name": "Laire",
+      "popularity": 9,
+      "duration_ms": 312789,
+      "duration_min": 5.21,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/07YxyhoplKhZTrUvYCBrNP",
+      "album": {
+        "name": "Nap in dreams",
+        "release_date": "2023-09-28",
+        "total_tracks": 10
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    },
+    {
+      "name": "IIIR",
+      "popularity": 8,
+      "duration_ms": 251032,
+      "duration_min": 4.18,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/0Xr8hiCWSjsHUhacnm0UIu",
+      "album": {
+        "name": "Nap in dreams",
+        "release_date": "2023-09-28",
+        "total_tracks": 10
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    },
+    {
+      "name": "Greedy sleeper",
+      "popularity": 7,
+      "duration_ms": 174907,
+      "duration_min": 2.92,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/0RCpgDcrwJ9MId0o9tA76W",
+      "album": {
+        "name": "Nap in dreams",
+        "release_date": "2023-09-28",
+        "total_tracks": 10
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    },
+    {
+      "name": "Bpm140",
+      "popularity": 5,
+      "duration_ms": 223573,
+      "duration_min": 3.73,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/1A2tfR087T8Tc0teSnt4m4",
+      "album": {
+        "name": "Nap in dreams",
+        "release_date": "2023-09-28",
+        "total_tracks": 10
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    },
+    {
+      "name": "To trap that tiger（TTTT）",
+      "popularity": 6,
+      "duration_ms": 352036,
+      "duration_min": 5.87,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/4xKApDzStPd3xFnGP5NLCv",
+      "album": {
+        "name": "Nap in dreams",
+        "release_date": "2023-09-28",
+        "total_tracks": 10
+      },
+      "artists": [
+        "A Wordless Orange（沉默橙)"
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "id": "4sj02FdX9nVXX5udNyWZEk",
+      "name": "Nap in dreams",
+      "release_date": "2023-09-28",
+      "total_tracks": 10,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/4sj02FdX9nVXX5udNyWZEk"
+    },
+    {
+      "id": "7AuJ05WXrRmASoerKLvtg6",
+      "name": "裝高手(Guru Orange)",
+      "release_date": "2025-05-27",
+      "total_tracks": 5,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/7AuJ05WXrRmASoerKLvtg6"
+    },
+    {
+      "id": "0R5fKWmtPPR6OjjgrTUPQ8",
+      "name": "South Lake",
+      "release_date": "2021-12-22",
+      "total_tracks": 3,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0R5fKWmtPPR6OjjgrTUPQ8"
+    }
+  ],
+  "related_artists": [],
+  "search_query": "a wordless orange",
+  "country_market": "US"
+}

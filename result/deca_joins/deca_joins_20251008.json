@@ -1,0 +1,305 @@
+{
+  "artist": {
+    "id": "5wbF4yfjaOjTSkrnucKA77",
+    "name": "deca joins",
+    "url": "https://open.spotify.com/artist/5wbF4yfjaOjTSkrnucKA77",
+    "followers": 230826,
+    "popularity": 45,
+    "genres": [
+      "taiwanese indie",
+      "chinese indie",
+      "chinese rock",
+      "taiwanese pop"
+    ],
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5ebc275d237803cd90b575a7aff",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174c275d237803cd90b575a7aff",
+        "height": 320,
+        "width": 320
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178c275d237803cd90b575a7aff",
+        "height": 160,
+        "width": 160
+      }
+    ]
+  },
+  "top_tracks": [
+    {
+      "name": "浴室",
+      "popularity": 47,
+      "duration_ms": 259953,
+      "duration_min": 4.33,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/2Xu6fN0gE2S04L0zywmcif",
+      "album": {
+        "name": "浴室",
+        "release_date": "2017-04-21",
+        "total_tracks": 9
+      },
+      "artists": [
+        "deca joins"
+      ]
+    },
+    {
+      "name": "海浪",
+      "popularity": 47,
+      "duration_ms": 322333,
+      "duration_min": 5.37,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/5EpLeWSwqOG0mZW0R4WdKQ",
+      "album": {
+        "name": "Go Slow",
+        "release_date": "2018-11-14",
+        "total_tracks": 5
+      },
+      "artists": [
+        "deca joins"
+      ]
+    },
+    {
+      "name": "我不用問",
+      "popularity": 46,
+      "duration_ms": 238105,
+      "duration_min": 3.97,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6lH3RIIRaKOpyvAk8HX7DW",
+      "album": {
+        "name": "我不用問",
+        "release_date": "2025-09-30",
+        "total_tracks": 1
+      },
+      "artists": [
+        "deca joins"
+      ]
+    },
+    {
+      "name": "大雨 - 滾石40 滾石撞樂隊 40團拚經典 (原唱:娃娃)",
+      "popularity": 45,
+      "duration_ms": 192208,
+      "duration_min": 3.2,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/3k1IJYrxcQvm9m7UbITf3d",
+      "album": {
+        "name": "滾石40 滾石撞樂隊 40團拚經典 - 大雨",
+        "release_date": "2021-12-31",
+        "total_tracks": 1
+      },
+      "artists": [
+        "deca joins"
+      ]
+    },
+    {
+      "name": "浴室 (2019 Reprise)",
+      "popularity": 42,
+      "duration_ms": 294263,
+      "duration_min": 4.9,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/2bULxhIu61XZm0hqJ4Kj39",
+      "album": {
+        "name": "浴室 (2019 Reprise)",
+        "release_date": "2019-09-27",
+        "total_tracks": 1
+      },
+      "artists": [
+        "deca joins"
+      ]
+    },
+    {
+      "name": "偏見",
+      "popularity": 42,
+      "duration_ms": 328421,
+      "duration_min": 5.47,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/7wlocnIB0q2PJNPnXuSAyI",
+      "album": {
+        "name": "偏見",
+        "release_date": "2025-07-30",
+        "total_tracks": 1
+      },
+      "artists": [
+        "deca joins"
+      ]
+    },
+    {
+      "name": "散去的時候",
+      "popularity": 41,
+      "duration_ms": 265763,
+      "duration_min": 4.43,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/34t0kmh35RbxAVxbd7kT4j",
+      "album": {
+        "name": "霧散去的時候",
+        "release_date": "2019-10-25",
+        "total_tracks": 2
+      },
+      "artists": [
+        "deca joins"
+      ]
+    },
+    {
+      "name": "夜間獨白",
+      "popularity": 41,
+      "duration_ms": 248360,
+      "duration_min": 4.14,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/1IcV5BAKb4OeR4zuenTgeP",
+      "album": {
+        "name": "Go Slow",
+        "release_date": "2018-11-14",
+        "total_tracks": 5
+      },
+      "artists": [
+        "deca joins"
+      ]
+    },
+    {
+      "name": "巫堵",
+      "popularity": 39,
+      "duration_ms": 210115,
+      "duration_min": 3.5,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/6CxQsBfTmhx0RsoJoV8hH7",
+      "album": {
+        "name": "浴室",
+        "release_date": "2017-04-21",
+        "total_tracks": 9
+      },
+      "artists": [
+        "deca joins"
+      ]
+    },
+    {
+      "name": "黑暗之中閉上眼",
+      "popularity": 37,
+      "duration_ms": 165080,
+      "duration_min": 2.75,
+      "explicit": false,
+      "preview_url": null,
+      "spotify_url": "https://open.spotify.com/track/3ZrM3VPO2azJJqirwg8aJj",
+      "album": {
+        "name": "鳥鳥鳥 Bird and Reflections",
+        "release_date": "2020-12-28",
+        "total_tracks": 10
+      },
+      "artists": [
+        "deca joins"
+      ]
+    }
+  ],
+  "albums": [
+    {
+      "id": "73G2RLl0fHOu8k3ZFPX796",
+      "name": "鳥鳥鳥 Bird and Reflections",
+      "release_date": "2020-12-28",
+      "total_tracks": 10,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/73G2RLl0fHOu8k3ZFPX796"
+    },
+    {
+      "id": "4KbF8nazd5g4zXJRJhBqIo",
+      "name": "浴室 (LP Version)",
+      "release_date": "2019-09-27",
+      "total_tracks": 9,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/4KbF8nazd5g4zXJRJhBqIo"
+    },
+    {
+      "id": "1zKJy6TIHEz3YM78riefV9",
+      "name": "浴室",
+      "release_date": "2017-04-21",
+      "total_tracks": 9,
+      "album_type": "album",
+      "spotify_url": "https://open.spotify.com/album/1zKJy6TIHEz3YM78riefV9"
+    },
+    {
+      "id": "3msPLSdyWwAAg4YjMiTKZG",
+      "name": "我不用問",
+      "release_date": "2025-09-30",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3msPLSdyWwAAg4YjMiTKZG"
+    },
+    {
+      "id": "4FFAAiLfmOlYcoyEMRUcyL",
+      "name": "偏見",
+      "release_date": "2025-07-30",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/4FFAAiLfmOlYcoyEMRUcyL"
+    },
+    {
+      "id": "35WbOyVHUlWYO4sTlc5DVW",
+      "name": "暗流",
+      "release_date": "2023-12-12",
+      "total_tracks": 4,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/35WbOyVHUlWYO4sTlc5DVW"
+    },
+    {
+      "id": "2IMCZihs6dkJ4dGvBf0cDF",
+      "name": "deca joins on Audiotree Live",
+      "release_date": "2023-11-07",
+      "total_tracks": 4,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/2IMCZihs6dkJ4dGvBf0cDF"
+    },
+    {
+      "id": "793mi0YibUGnMf96AJ9Q8n",
+      "name": "滾石40 滾石撞樂隊 40團拚經典 - 大雨",
+      "release_date": "2021-12-31",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/793mi0YibUGnMf96AJ9Q8n"
+    },
+    {
+      "id": "0mSQ204TuXJdrXiegsehB2",
+      "name": "3 Songs",
+      "release_date": "2020-06-01",
+      "total_tracks": 3,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0mSQ204TuXJdrXiegsehB2"
+    },
+    {
+      "id": "39OOrkC6FD77XXUQUK9oy3",
+      "name": "霧散去的時候",
+      "release_date": "2019-10-25",
+      "total_tracks": 2,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/39OOrkC6FD77XXUQUK9oy3"
+    },
+    {
+      "id": "0iZc8PYagG8Yw42WQfHued",
+      "name": "浴室 (2019 Reprise)",
+      "release_date": "2019-09-27",
+      "total_tracks": 1,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/0iZc8PYagG8Yw42WQfHued"
+    },
+    {
+      "id": "3dsjH0D0Co0X7oii3a7FO8",
+      "name": "Go Slow",
+      "release_date": "2018-11-14",
+      "total_tracks": 5,
+      "album_type": "single",
+      "spotify_url": "https://open.spotify.com/album/3dsjH0D0Co0X7oii3a7FO8"
+    }
+  ],
+  "related_artists": [],
+  "search_query": "deca joins",
+  "country_market": "US"
+}
