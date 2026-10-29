@@ -24,36 +24,36 @@ from torch.utils.data import TensorDataset, DataLoader
 import dowhy
 
 # ==========================================
-# 0. 数据准备
+# 0. Data preparation
 # ==========================================
-# 使用 OpenML 提供的波士顿房价数据 (sklearn 官方接口已移除)
+# Use the Boston housing data provided by OpenML (the official sklearn loader was removed)
 boston = fetch_openml(name="boston", version=1, as_frame=True)
 X = boston.data
 y = boston.target.astype(float).rename("MEDV")
 
-# 设定我们的研究目标：
-# Treatment (干预变量): RM (每栋住宅的平均房间数)
-# Outcome (结果变量): MEDV (房价中位数)
-# Confounders (混淆变量): 除了 RM 以外的所有特征 (犯罪率、交通便利度、空气质量等)
-#   我们假设：富人区(LSTAT低) 既会有更多房间(RM高)，房价也更高(MEDV高)。
-#   如果不剔除其他因素，我们会高估 RM 的价值。
+# Define our research goal:
+# Treatment: RM (average number of rooms per dwelling)
+# Outcome: MEDV (median house price)
+# Confounders: all features except RM (crime rate, accessibility, air quality, etc.)
+#   We assume: wealthy neighborhoods (low LSTAT) have both more rooms (high RM) and higher prices (high MEDV).
+#   If other factors are not removed, we would overestimate the value of RM.
 
 # treatment_col = "RM"
 treatment_col = "LSTAT"
 confounder_cols = [c for c in X.columns if c != treatment_col]
 print('confounder_cols', confounder_cols)
 
-X_confounders = X[confounder_cols].values   # 混淆变量
-T = X[treatment_col].values   # 干预变量 RM 
-Y = y.values   # 结果变量 MEDV
+X_confounders = X[confounder_cols].values   # confounders
+T = X[treatment_col].values   # treatment variable (RM)
+Y = y.values   # outcome variable (MEDV)
 
-# 标准化 (对神经网络训练至关重要)
+# Standardization (essential for neural network training)
 scaler_x = StandardScaler()
 X_conf_scaled = scaler_x.fit_transform(X_confounders)
 
-print(f"总样本数: {len(Y)}")
-print(f"干预变量: {treatment_col}")
-print(f"混淆变量数: {len(confounder_cols)}")
+print(f"Total samples: {len(Y)}")
+print(f"Treatment variable: {treatment_col}")
+print(f"Number of confounders: {len(confounder_cols)}")
 print("-" * 50)
 
 print(X.info())
@@ -102,100 +102,100 @@ def train_and_evaluate_pytorch_model(model, X_data, Y_data, epochs=80, batch_siz
     return model, mse_loss
 
 # ==========================================
-# 1. 传统做法：直接把所有特征扔进 MLP (PyTorch 版本)
-#    (Prediction Task - 只求预测准)
+# 1. Traditional approach: feed all features directly into an MLP (PyTorch version)
+#    (Prediction Task - only aims for accurate predictions)
 # ==========================================
-# 这种模型只能告诉你 "Correlation"
+# This kind of model can only tell you "Correlation"
 full_input = np.column_stack((T, X_conf_scaled))
 model_prediction = PyTorchMLP(input_dim=full_input.shape[1])
 model_prediction, pred_mse = train_and_evaluate_pytorch_model(
     model_prediction, full_input, Y, epochs=80, batch_size=32
 )
 
-print(f"【传统预测模型 (PyTorch)】 MSE Loss: {pred_mse:.4f}")
-print("这个模型预测很准，但很难拆解出 'RM' 纯粹的因果贡献。")
+print(f"[Traditional prediction model (PyTorch)] MSE Loss: {pred_mse:.4f}")
+print("This model predicts accurately, but it is hard to isolate the pure causal contribution of 'RM'.")
 print("-" * 50)
 
 
 
 # ==========================================
-# 2. Causal AI 做法：Deep Double ML (PyTorch 版本)
-#    (Causal Task - 求真实效应)
+# 2. Causal AI approach: Deep Double ML (PyTorch version)
+#    (Causal Task - estimate the true effect)
 # ==========================================
-# 核心思想：利用 MLP 的非线性能力，分别清洗 T 和 Y 中的混淆信息
+# Core idea: use the nonlinear capacity of an MLP to remove confounding information from T and Y separately
 
-# --- Step A: 去混淆 Treatment (T模型) ---
-# 任务：用其他特征(混淆变量)来预测房间数(RM)
-# 逻辑：算出 "根据地段、犯罪率等因素，这房子本该有多少间房"
+# --- Step A: Deconfound the Treatment (T model) ---
+# Task: use the other features (confounders) to predict the number of rooms (RM)
+# Logic: compute "how many rooms this house should have given location, crime rate, etc."
 model_t = PyTorchMLP(input_dim=X_conf_scaled.shape[1])
-print("正在训练 Treatment Model (预测房间数)...")
+print("Training Treatment Model (predicting number of rooms)...")
 model_t, _ = train_and_evaluate_pytorch_model(
     model_t, X_conf_scaled, T, epochs=80, batch_size=32
 )
 
-# 计算 RM 的残差 (实际房间数 - 预测房间数)
-# 这代表了：剔除地段因素后，意外多出来的房间数
+# Compute the RM residuals (actual rooms - predicted rooms)
+# This represents the unexpected extra rooms after removing location effects
 X_conf_tensor = torch.tensor(X_conf_scaled, dtype=torch.float32)
 with torch.no_grad():
     T_pred_tensor = model_t(X_conf_tensor).flatten()
 T_pred = T_pred_tensor.numpy() # Convert back to numpy for residual calculation and sklearn
 T_res = T - T_pred
 
-# --- Step B: 去混淆 Outcome (Y模型) ---
-# 任务：用其他特征(混淆变量)来预测房价(MEDV)
-# 逻辑：算出 "根据地段、犯罪率等因素，这房子本该值多少钱"
+# --- Step B: Deconfound the Outcome (Y model) ---
+# Task: use the other features (confounders) to predict the house price (MEDV)
+# Logic: compute "how much this house should be worth given location, crime rate, etc."
 model_y = PyTorchMLP(input_dim=X_conf_scaled.shape[1])
-print("正在训练 Outcome Model (预测房价)...")
+print("Training Outcome Model (predicting house price)...")
 model_y, _ = train_and_evaluate_pytorch_model(
     model_y, X_conf_scaled, Y, epochs=80, batch_size=32
 )
 
-# 计算房价的残差 (实际房价 - 预测房价)
-# 这代表了：剔除地段因素后，意外高出来的房价
+# Compute the price residuals (actual price - predicted price)
+# This represents the unexpectedly high price after removing location effects
 with torch.no_grad():
     Y_pred_tensor = model_y(X_conf_tensor).flatten()
 Y_pred = Y_pred_tensor.numpy() # Convert back to numpy
 Y_res = Y - Y_pred
 
-# --- Step C: 因果效应估算 ---
-# 现在的逻辑是："意外多出来的房间" 是否导致了 "意外高出来的房价"？
-# 这是一个简单的线性关系
+# --- Step C: Causal effect estimation ---
+# The question now: do the "unexpected extra rooms" cause the "unexpectedly high price"?
+# This is a simple linear relationship
 causal_model = LinearRegression()
-# 注意：我们要 fit 的是残差！
+# Note: we fit on the residuals!
 causal_model.fit(T_res.reshape(-1, 1), Y_res)
 
 causal_effect = causal_model.coef_[0]
-print(f"【Deep Double ML (PyTorch) 估算的因果效应】 房间数对房价的因果效应: {causal_effect:.4f} 千美元/间房")
+print(f"[Causal effect estimated by Deep Double ML (PyTorch)] Causal effect of rooms on price: {causal_effect:.4f} thousand USD per room")
 
 # ==========================================
-# 3. 结果对比与分析
+# 3. Result comparison and analysis
 # ==========================================
 
-# 为了对比，我们算一个简单的 Naive Correlation (直接线性回归)
+# For comparison, compute a simple Naive Correlation (direct linear regression)
 naive_model = LinearRegression()
 naive_model.fit(T.reshape(-1, 1), Y)
 naive_corr = naive_model.coef_[0]
 
 print("\n" + "="*50)
-print(f"【分析结果：一间房(RM)值多少钱？】")
+print(f"[Result: how much is one extra room (RM) worth?]")
 print("="*50)
-print(f"1. Naive Correlation (直接看相关性): {naive_corr:.4f}")
-print(f"   解读: 简单来看，多一间房，房价涨 {naive_corr:.2f} 千美元。")
-print(f"   (包含混淆：因为房间多的房子通常也在好地段，这部分溢价也被算进去了)")
+print(f"1. Naive Correlation (direct correlation): {naive_corr:.4f}")
+print(f"   Interpretation: naively, one more room raises the price by {naive_corr:.2f} thousand USD.")
+print(f"   (Includes confounding: houses with more rooms are usually in better locations, and that premium is counted too)")
 
 print(f"\n2. Causal Effect (Deep Double ML, PyTorch):   {causal_effect:.4f}")
-print(f"   解读: 剔除地段、空气、犯罪率等所有干扰后，单纯把房子扩建一间房，")
-print(f"   房价真实上涨 {causal_effect:.2f} 千美元。")
+print(f"   Interpretation: after removing location, air quality, crime rate and all other confounders,")
+print(f"   simply adding one room raises the price by {causal_effect:.2f} thousand USD.")
 
 print("-" * 50)
-print("结论：")
+print("Conclusion:")
 if abs(naive_corr) > abs(causal_effect):
-    print("naive 估算偏高！普通的预测模型 '窃取' 了地段的功劳归给了房间数。")
+    print("The naive estimate is too high! The plain prediction model 'steals' the credit of location and gives it to the number of rooms.")
 else:
-    print("naive 估算偏低！存在某些抑制因子。")
+    print("The naive estimate is too low! There may be some suppressing factors.")
 
-# 可视化残差关系
-# 如果这是一条清晰的直线，说明因果关系很稳健
+# Visualize the residual relationship
+# If it is a clear straight line, the causal relationship is robust
 import matplotlib.pyplot as plt
 
 plt.figure(figsize=(10, 5))
@@ -212,44 +212,44 @@ plt.show()
 # 4. Explainable AI (XAI) with SHAP (PyTorch Model)
 # ==========================================
 print("\n" + "="*50)
-print("【解释传统预测模型 (PyTorch) 的预测结果 - SHAP】")
+print("[Explaining the traditional prediction model (PyTorch) - SHAP]")
 print("="*50)
 
-# 1. 准备背景数据和待解释样本
-# SHAP DeepExplainer 需要一个背景数据集来估计特征的贡献
-# 我们可以使用一部分训练数据作为背景数据
+# 1. Prepare background data and samples to explain
+# SHAP DeepExplainer needs a background dataset to estimate feature contributions
+# We can use part of the training data as the background
 background = full_input[np.random.choice(full_input.shape[0], 100, replace=False)]
 
-# 将模型设置为评估模式 (对某些层如Dropout很重要)
+# Set the model to evaluation mode (important for layers such as Dropout)
 model_prediction.eval()
 
-# 创建DeepExplainer
-# 注意：PyTorch模型需要传入 torch.from_numpy(background).float()
+# Create the DeepExplainer
+# Note: PyTorch models need torch.from_numpy(background).float()
 explainer = shap.DeepExplainer(model_prediction, torch.from_numpy(background).float())
 
-# 选择几个样本进行解释
-# 这里我们选择前5个样本
+# Select samples to explain
+# (all samples are used here)
 X_to_explain = full_input[:]
 
-# 计算SHAP值
-# 注意：这里也要将输入转换为 PyTorch tensor
+# Compute SHAP values
+# Note: the input must also be converted to a PyTorch tensor here
 shap_values = explainer.shap_values(torch.from_numpy(X_to_explain).float())
 
 # SHAP DeepExplainer for a single-output model returns an array of shape (N, F, 1).
 # We need to squeeze this to (N, F) for summary_plot.
 shap_values_array = shap_values.squeeze() # Corrected: Squeeze the entire array
 
-# 特征名称 (混淆变量 + 干预变量)
+# Feature names (treatment + confounders)
 feature_names = [treatment_col] + confounder_cols
 
-# 可视化 SHAP 值
-# Summary Plot: 显示所有特征对模型输出的平均影响
-print("生成SHAP Summary Plot...")
+# Visualize SHAP values
+# Summary Plot: shows the average impact of all features on the model output
+print("Generating SHAP Summary Plot...")
 shap.summary_plot(shap_values_array, X_to_explain, feature_names=feature_names, show=False)
 plt.title("SHAP Summary Plot for PyTorch Prediction Model")
 plt.show()
 
-# Force Plot: 解释单个预测（例如第一个样本）
-print("生成SHAP Force Plot for the first sample...")
+# Force Plot: explains a single prediction (e.g., the first sample)
+print("Generating SHAP Force Plot for the first sample...")
 shap.initjs()
 shap.force_plot(explainer.expected_value[0], shap_values_array[0,:], X_to_explain[0,:], feature_names=feature_names)

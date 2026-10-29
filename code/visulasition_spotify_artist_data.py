@@ -35,7 +35,7 @@ plt.title(f"Top Tracks Popularity - {data['artist']['name']}")
 plt.gca().invert_yaxis()  # highest popularity at top
 plt.tight_layout()
 
-# 先保存图片，再显示
+# Save the image first, then show it
 plt.savefig("../result/top_tracks_popularity.png", dpi=300, bbox_inches='tight')
 print("Saved popularity chart to ../result/top_tracks_popularity.png")
 plt.show()

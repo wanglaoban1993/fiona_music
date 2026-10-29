@@ -410,14 +410,14 @@ class SpotifyArtistAnalyzer:
         
         # Prepare artist statistics data
         artist_stats = {
-            "提取日期 (Extraction Date)": [extraction_date],
-            "艺术家名称 (Artist Name)": [self.current_artist["name"]],
-            "月活跃听众 (Monthly Listeners)": [
+            "Extraction Date": [extraction_date],
+            "Artist Name": [self.current_artist["name"]],
+            "Monthly Listeners": [
                 self.current_artist.get("monthly_listeners") if self.current_artist.get("monthly_listeners") else "N/A"
             ],
-            "粉丝数量 (Followers)": [self.current_artist["followers"]],
-            "流行度分数 (Popularity Score)": [self.current_artist["popularity"]],
-            "音乐类型 (Genres)": [", ".join(self.current_artist["genres"]) if self.current_artist["genres"] else "N/A"],
+            "Followers": [self.current_artist["followers"]],
+            "Popularity Score": [self.current_artist["popularity"]],
+            "Genres": [", ".join(self.current_artist["genres"]) if self.current_artist["genres"] else "N/A"],
             "Spotify URL": [self.current_artist["url"]]
         }
         
@@ -675,7 +675,7 @@ Note: Artist statistics (followers, popularity, genres, extraction date)
     )
     
     parser.add_argument("artist", 
-                       help="Name of the artist to analyze (e.g., 'Tom Misch', '法兰克福头盔')")
+                       help="Name of the artist to analyze (e.g., 'Tom Misch', 'Frankfurt Helmet')")
     
     parser.add_argument("--country", 
                        default="US", 
