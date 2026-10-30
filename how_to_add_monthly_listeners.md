@@ -67,7 +67,7 @@ python spotify_artist_stats_and_visul_fetch.py "Venna" --charts --add-date
 2. **You see**: 500,000 monthly listeners
 3. **Run the command**:
    ```bash
-   python test\spotify_artist_stats_and_visul_fetch.py "Venna" --monthly-listeners 500000 --charts --add-date
+   python code\spotify_artist_stats_and_visul_fetch.py "Venna" --monthly-listeners 500000 --charts --add-date
    ```
 4. **View the result**: `result/Venna/venna_artist_stats_20251008.xlsx`
 
@@ -77,7 +77,7 @@ python spotify_artist_stats_and_visul_fetch.py "Venna" --charts --add-date
 2. **Suppose you see**: 5,200,000 monthly listeners
 3. **Run the command**:
    ```bash
-   python test\spotify_artist_stats_and_visul_fetch.py "Tom Misch" --monthly-listeners 5200000 --all-songs --charts --add-date
+   python code\spotify_artist_stats_and_visul_fetch.py "Tom Misch" --monthly-listeners 5200000 --all-songs --charts --add-date
    ```
 
 ### Example 3: Jay Chou
@@ -86,7 +86,7 @@ python spotify_artist_stats_and_visul_fetch.py "Venna" --charts --add-date
 2. **Note the monthly listeners count** (e.g. 10,000,000)
 3. **Run the command**:
    ```bash
-   python test\spotify_artist_stats_and_visul_fetch.py "Jay Chou" --monthly-listeners 10000000 --charts --add-date
+   python code\spotify_artist_stats_and_visul_fetch.py "Jay Chou" --monthly-listeners 10000000 --charts --add-date
    ```
 
 ---
@@ -102,14 +102,14 @@ python spotify_artist_stats_and_visul_fetch.py "Venna" --charts --add-date
 # 2. Note the monthly listeners number
 
 # 3. Run the full analysis command
-python test\spotify_artist_stats_and_visul_fetch.py "Artist Name" \
+python code\spotify_artist_stats_and_visul_fetch.py "Artist Name" \
     --monthly-listeners NUMBER \
     --all-songs \
     --charts \
     --add-date
 
 # Example (Windows PowerShell):
-python test\spotify_artist_stats_and_visul_fetch.py "Venna" --monthly-listeners 500000 --all-songs --charts --add-date
+python code\spotify_artist_stats_and_visul_fetch.py "Venna" --monthly-listeners 500000 --all-songs --charts --add-date
 ```
 
 ---

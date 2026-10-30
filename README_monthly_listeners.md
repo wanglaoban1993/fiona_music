@@ -47,27 +47,27 @@ python quick_add_listeners.py
 #### Basic usage
 
 ```bash
-python test\spotify_artist_stats_and_visul_fetch.py "Artist Name" --monthly-listeners NUMBER
+python code\spotify_artist_stats_and_visul_fetch.py "Artist Name" --monthly-listeners NUMBER
 ```
 
 #### Full examples
 
 ```bash
 # Venna - all features
-python test\spotify_artist_stats_and_visul_fetch.py "Venna" \
+python code\spotify_artist_stats_and_visul_fetch.py "Venna" \
     --monthly-listeners 500000 \
     --all-songs \
     --charts \
     --add-date
 
 # Tom Misch - basic stats and charts only
-python test\spotify_artist_stats_and_visul_fetch.py "Tom Misch" \
+python code\spotify_artist_stats_and_visul_fetch.py "Tom Misch" \
     --monthly-listeners 5200000 \
     --charts \
     --add-date
 
 # Jay Chou - full analysis
-python test\spotify_artist_stats_and_visul_fetch.py "Jay Chou" \
+python code\spotify_artist_stats_and_visul_fetch.py "Jay Chou" \
     --monthly-listeners 10000000 \
     --all-songs \
     --charts \
@@ -80,7 +80,7 @@ python test\spotify_artist_stats_and_visul_fetch.py "Jay Chou" \
 
 ```bash
 # If you do not have the monthly listeners data yet, you can omit it
-python test\spotify_artist_stats_and_visul_fetch.py "Artist Name" --charts --add-date
+python code\spotify_artist_stats_and_visul_fetch.py "Artist Name" --charts --add-date
 
 # The Excel file will show "N/A"
 ```
@@ -175,7 +175,7 @@ https://open.spotify.com/search/ARTIST_NAME
 ### Recommended configuration:
 
 ```bash
-python test\spotify_artist_stats_and_visul_fetch.py "Artist Name" \
+python code\spotify_artist_stats_and_visul_fetch.py "Artist Name" \
     --monthly-listeners NUMBER_SEEN_ON_SPOTIFY \
     --all-songs \
     --charts \
@@ -192,7 +192,7 @@ This gives you:
 
 ```bash
 # Re-run weekly/monthly to track changes
-python test\spotify_artist_stats_and_visul_fetch.py "Venna" \
+python code\spotify_artist_stats_and_visul_fetch.py "Venna" \
     --monthly-listeners LATEST_NUMBER \
     --charts \
     --add-date
@@ -213,7 +213,7 @@ Because `--add-date` is used, each run generates new files and never overwrites 
 # 2. You see: 500,000 monthly listeners
 
 # 3. Run the analysis
-python test\spotify_artist_stats_and_visul_fetch.py "Venna" \
+python code\spotify_artist_stats_and_visul_fetch.py "Venna" \
     --monthly-listeners 500000 \
     --all-songs \
     --charts \
@@ -235,13 +235,13 @@ python test\spotify_artist_stats_and_visul_fetch.py "Venna" \
 
 ```bash
 # First run (2025-10-08)
-python test\spotify_artist_stats_and_visul_fetch.py "Tom Misch" \
+python code\spotify_artist_stats_and_visul_fetch.py "Tom Misch" \
     --monthly-listeners 5200000 \
     --charts \
     --add-date
 
 # One month later (2025-11-08)
-python test\spotify_artist_stats_and_visul_fetch.py "Tom Misch" \
+python code\spotify_artist_stats_and_visul_fetch.py "Tom Misch" \
     --monthly-listeners 5500000 \
     --charts \
     --add-date
@@ -274,9 +274,9 @@ python test\spotify_artist_stats_and_visul_fetch.py "Tom Misch" \
 
 ```batch
 @echo off
-python test\spotify_artist_stats_and_visul_fetch.py "Venna" --monthly-listeners 500000 --charts --add-date
-python test\spotify_artist_stats_and_visul_fetch.py "Tom Misch" --monthly-listeners 5200000 --charts --add-date
-python test\spotify_artist_stats_and_visul_fetch.py "Jay Chou" --monthly-listeners 10000000 --charts --add-date
+python code\spotify_artist_stats_and_visul_fetch.py "Venna" --monthly-listeners 500000 --charts --add-date
+python code\spotify_artist_stats_and_visul_fetch.py "Tom Misch" --monthly-listeners 5200000 --charts --add-date
+python code\spotify_artist_stats_and_visul_fetch.py "Jay Chou" --monthly-listeners 10000000 --charts --add-date
 ```
 
 ---
@@ -285,7 +285,7 @@ python test\spotify_artist_stats_and_visul_fetch.py "Jay Chou" --monthly-listene
 
 - `artist_statistics_feature.md` - Introduction to the basic features
 - `how_to_add_monthly_listeners.md` - Detailed monthly listeners guide
-- `test/spotify_artist_stats_and_visul_fetch.py` - Main program
+- `code/spotify_artist_stats_and_visul_fetch.py` - Main program
 - `quick_add_listeners.py` - Quick interactive tool
 
 ---
@@ -326,7 +326,7 @@ You can now:
 python quick_add_listeners.py
 
 # Or the full command
-python test\spotify_artist_stats_and_visul_fetch.py "Artist Name" \
+python code\spotify_artist_stats_and_visul_fetch.py "Artist Name" \
     --monthly-listeners NUMBER \
     --all-songs \
     --charts \

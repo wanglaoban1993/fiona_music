@@ -12,6 +12,7 @@ This script will:
 
 import subprocess
 import sys
+from pathlib import Path
 
 def main():
     print("=" * 60)
@@ -74,9 +75,10 @@ def main():
     print()
     
     # Build the command
+    script = Path(__file__).resolve().parent / "code" / "spotify_artist_stats_and_visul_fetch.py"
     cmd = [
-        "python",
-        "test/spotify_artist_stats_and_visul_fetch.py",
+        sys.executable,
+        str(script),
         artist_name,
         "--add-date"
     ]

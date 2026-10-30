@@ -108,7 +108,7 @@ python spotify_artist_stats_and_visul_fetch.py "Tom Misch" --all-songs --charts 
 
 ### Example 3: Using the test script
 ```bash
-python test/test_artist_stats.py "Jay Chou"
+python code/test_artist_stats.py "Jay Chou"
 ```
 
 ---
